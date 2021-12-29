@@ -12,13 +12,25 @@ namespace PrisonersDilemma.Players
     {
         public AbstractPlayer()
         {
-            Receive<GetTipMessage>(OnReceive_GetTipMessage);
+            ReceiveAsync<GetTipMessage>(OnReceive_GetTipMessage);
+            ReceiveAsync<InitializePlayerMessage>(OnReceive_InitializePlayerMessage);
         }
-        private void OnReceive_GetTipMessage(GetTipMessage message)
+        private async Task OnReceive_GetTipMessage(GetTipMessage message)
         {
-            Sender.Tell(new TipMessage() { Tip = GetTip() });
+            lastResult = message.PreviousResult;
+            Sender.Tell(new TipMessage() { Tip = await GetTip() });
         }
 
-        protected abstract bool GetTip();
+        private async Task OnReceive_InitializePlayerMessage(InitializePlayerMessage message)
+        {
+            playerNr = message.PlayerNr;
+            await Initialize(message);
+            Sender.Tell(new InitializeFinishedMessage());
+        }
+
+        protected abstract Task<bool> GetTip();
+        protected virtual Task Initialize(InitializePlayerMessage message) => Task.CompletedTask;
+        protected RoundResultMessage lastResult;
+        protected int playerNr;
     }
 }

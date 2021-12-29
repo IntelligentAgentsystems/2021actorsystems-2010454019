@@ -11,11 +11,7 @@ namespace PrisonersDilemma
 {
     internal class GameManager : ReceiveActor
     {
-        private IActorRef? playground;
-        private IActorRef? writer;
 
-        private int maxTries = 10;
-        private int tries = 0;
         public GameManager()
         {
             ReceiveAsync<GameStartMessage>(OnReceive_GameStartMessage);
@@ -23,50 +19,36 @@ namespace PrisonersDilemma
 
         private async Task OnReceive_GameStartMessage(GameStartMessage message)
         {
-            if(playground == null)
-                playground = Context.ActorOf<Playground>($"{nameof(Playground)}_{Guid.NewGuid()}");
+            var playground = Context.ActorOf<Playground>($"{nameof(Playground)}_{Guid.NewGuid()}");
+            var writer = Context.ActorOf<Writer>($"{nameof(Writer)}_{Guid.NewGuid()}");
+            var reader = Context.ActorOf<Reader>($"{nameof(Reader)}_{Guid.NewGuid()}");
 
-            if (writer == null)
-                writer = Context.ActorOf<Writer>($"{nameof(Writer)}_{Guid.NewGuid()}");
+            var data = await reader.Ask<GameDataMessage>(new GetDataMessage() { IdGame = message.Properties.IdGame });
 
-            try
+            await playground.Ask<InitializeFinishedMessage>(new InitializePlaygroundMessage()
             {
-                await playground.Ask<InitializeFinishedMessage>(new InitializePlaygroundMessage()
-                {
-                    Player1 = message.Player1,
-                    Player2 = message.Player2,
-                    Data = null
-                }, TimeSpan.FromSeconds(5));
-            }
-            catch (AskTimeoutException e)
-            {
-                playground = null;
-                Self.Tell(message);
-            }
+                Player1 = message.Properties.Player1,
+                Player2 = message.Properties.Player2,
+                Data = data?.Data
+            }, TimeSpan.FromSeconds(5));
 
 
-            int i = 0;
-            while( i < message.Rounds)
+            int i = data == null || data.Data.Count() == 0 ? 0 : data.Data.Max(e=>e.Round)+1;
+            while (i < message.Properties.Rounds)
             {
-                try
+                var result = await playground.Ask<RoundResultMessage>(new StartRoundMessage());
+                await writer.Ask(new ResultMessage()
                 {
-                    var result = await playground.Ask<RoundResultMessage>(new StartRoundMessage());
-                    writer.Tell(new ResultMessage() 
-                    { 
-                        IdGame = message.IdGame, 
-                        Round = i, 
-                        Player1Result = result.Player1Result, 
-                        Player1Tip = result.Player1Tip, 
-                        Player2Result = result.Player2Result, 
-                        Player2Tip = result.Player2Tip
-                    });
-                    i++;
-                }
-                catch (AskTimeoutException e)
-                {
-                    
-                }
+                    IdGame = message.Properties.IdGame,
+                    Round = i,
+                    Player1Result = result.Player1Result,
+                    Player1Tip = result.Player1Tip,
+                    Player2Result = result.Player2Result,
+                    Player2Tip = result.Player2Tip
+                });
+                i++;
             }
+            Sender.Tell(new FinishedMessage());
         }
     }
 }

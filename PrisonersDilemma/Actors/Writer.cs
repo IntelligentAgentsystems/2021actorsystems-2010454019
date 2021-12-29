@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using PrisonersDilemma.Helper;
 using PrisonersDilemma.Messages;
 using System;
 using System.Collections.Generic;
@@ -13,12 +14,14 @@ namespace PrisonersDilemma
 
         public Writer()
         {
-            ReceiveAsync<ResultMessage>(async e => await Task.Run(() => OnReceive_ResultMessage(e)));
+            ReceiveAsync<ResultMessage>(OnReceive_ResultMessage);
         }
 
-        private void OnReceive_ResultMessage(ResultMessage message)
+        private async Task OnReceive_ResultMessage(ResultMessage message)
         {
+            DummyStorage.Instance.AddData(message);
             Console.WriteLine($"{message.IdGame}-{message.Round}-{message.Player1Result}-{message.Player2Result}");
+            Sender.Tell(new FinishedMessage());
         }
     }
 }

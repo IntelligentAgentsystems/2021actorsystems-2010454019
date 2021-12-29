@@ -1,17 +1,18 @@
-﻿using Akka.Actor;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrisonersDilemma.Messages
+namespace PrisonersDilemma.Helper
 {
-    internal class InitializePlaygroundMessage
+
+    internal class GameProperties
     {
+        public Guid IdGame { get; set; }
+        public int Rounds { get; set; }
         public Type Player1 { get; set; }
         public Type Player2 { get; set; }
 
-        public IList<ResultMessage> Data { get; set; }
     }
 }

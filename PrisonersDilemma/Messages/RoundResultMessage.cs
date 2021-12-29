@@ -8,7 +8,6 @@ namespace PrisonersDilemma.Messages
 {
     internal class RoundResultMessage
     {
-        public int Round { get; set; }
         public bool Player1Tip { get; set; }
         public bool Player2Tip { get; set; }
 

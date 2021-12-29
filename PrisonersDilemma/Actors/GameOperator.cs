@@ -13,20 +13,25 @@ namespace PrisonersDilemma
     {
         public GameOperator()
         {
-            Receive<InitializeGamesMessage>(OnReceive_InitializeGamesMessage);
+            ReceiveAsync<InitializeGamesMessage>(OnReceive_InitializeGamesMessage);
         }
 
-        private void OnReceive_InitializeGamesMessage(InitializeGamesMessage message)
+        private async Task OnReceive_InitializeGamesMessage(InitializeGamesMessage message)
         {
-            for (int i = 0; i < message.Games; i++)
+            var games = new Task[message.Properties.Count()];
+            for (int i = 0; i < message.Properties.Count(); i++)
             {
                 var gameManaer = Context.ActorOf<GameManager>($"{nameof(GameManager)}_{Guid.NewGuid()}");
-                gameManaer.Tell(new GameStartMessage() { IdGame = Guid.NewGuid(), Rounds = message.Rounds,
-                Player1 = typeof(RandomPlayer), Player2= typeof(RandomPlayer)});
+
+                var props = message.Properties[i];
+                games[i] = gameManaer.Ask<FinishedMessage>(new GameStartMessage()
+                {
+                   Properties =props
+                }) ;
             }
-           
+
+            await Task.WhenAll(games);
+            Sender.Tell(new FinishedMessage());
         }
     }
-
- 
 }
