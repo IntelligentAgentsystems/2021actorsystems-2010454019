@@ -8,6 +8,11 @@ namespace PrisonersDilemma.Messages
 {
     internal class GameFinishMessage
     {
-        public Guid IdGame { get; set; }
+        public Guid IdGame { get; private set; }
+
+        public GameFinishMessage(Guid idGame)
+        {
+            IdGame = idGame;
+        }
     }
 }

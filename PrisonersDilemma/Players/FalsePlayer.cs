@@ -10,7 +10,7 @@ namespace PrisonersDilemma.Players
     {
         protected override async Task<bool> GetTip()
         {
-            return false;
+            return await Task.FromResult(false);
         }
     }
 }

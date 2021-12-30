@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using PrisonersDilemma.Helper;
 using PrisonersDilemma.Messages;
 using System;
 using System.Collections.Generic;
@@ -17,15 +18,24 @@ namespace PrisonersDilemma.Players
         }
         private async Task OnReceive_GetTipMessage(GetTipMessage message)
         {
-            lastResult = message.PreviousResult;
-            Sender.Tell(new TipMessage() { Tip = await GetTip() });
+            Sender.Tell(await Try<TipMessage>.Of(async () =>
+            {
+                Utils.MayFail();
+                lastResult = message.PreviousResult;
+                return new TipMessage(await GetTip());
+            }));
         }
 
+
         private async Task OnReceive_InitializePlayerMessage(InitializePlayerMessage message)
-        {
-            playerNr = message.PlayerNr;
-            await Initialize(message);
-            Sender.Tell(new InitializeFinishedMessage());
+        {           
+            Sender.Tell(await Try<InitializeFinishedMessage>.Of(async () =>
+            {
+                Utils.MayFail();
+                playerNr = message.PlayerNr;
+                await Initialize(message);
+                return InitializeFinishedMessage.Instance;
+            }));
         }
 
         protected abstract Task<bool> GetTip();

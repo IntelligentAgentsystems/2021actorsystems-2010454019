@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PrisonersDilemma.Messages
 {
-    internal class InitializeGamesMessage
+    internal class StartGamesMessage
     {
         public GameProperties[] Properties { get; set; }
 

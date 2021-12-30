@@ -9,6 +9,11 @@ namespace PrisonersDilemma.Messages
 {
     internal class GameStartMessage
     {
-        public GameProperties Properties { get; set; }
+        public GameProperties Properties { get; private set; }
+
+        public GameStartMessage(GameProperties properties)
+        {
+            Properties = properties;
+        }
     }
 }

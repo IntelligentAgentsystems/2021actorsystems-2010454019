@@ -8,7 +8,13 @@ namespace PrisonersDilemma.Messages
 {
     internal class InitializePlayerMessage
     {
-        public int PlayerNr { get; set; }
-        public IList<ResultMessage> Data { get; set; }
+        public InitializePlayerMessage(int playerNr, IList<ResultMessage> data)
+        {
+            PlayerNr = playerNr;
+            Data = data;
+        }
+
+        public int PlayerNr { get; private set; }
+        public IList<ResultMessage> Data { get; private set; }
     }
 }

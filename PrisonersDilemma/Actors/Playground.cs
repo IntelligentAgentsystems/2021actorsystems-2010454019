@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using PrisonersDilemma.Helper;
 using PrisonersDilemma.Messages;
 using System;
 using System.Collections.Generic;
@@ -22,45 +23,45 @@ namespace PrisonersDilemma
 
         private async Task OnReceive_InitializePlaygroundMessage(InitializePlaygroundMessage message)
         {
-            player1 = Context.ActorOf(Props.Create(message.Player1), $"P1_{nameof(message.Player1)}_{Guid.NewGuid()}");
-            player2 = Context.ActorOf(Props.Create(message.Player2), $"P2_{nameof(message.Player2)}_{Guid.NewGuid()}");
-
-            var initP1 =  player1.Ask<InitializeFinishedMessage>(new InitializePlayerMessage() { PlayerNr = 1, Data = message.Data });
-            var initP2 =  player2.Ask<InitializeFinishedMessage>(new InitializePlayerMessage() { PlayerNr = 2, Data = message.Data });
-
-            await initP1;
-            await initP2;
-
-            previousResult = message.Data?.OrderByDescending(e => e.Round).Select(e => new RoundResultMessage()
+            Sender.Tell(await Try<InitializeFinishedMessage>.Of(async () =>
             {
-                Player1Tip = e.Player1Tip,
-                Player2Tip = e.Player2Tip,
-                Player1Result = e.Player1Result,
-                Player2Result = e.Player2Result
-            }).FirstOrDefault();
+                Utils.MayFail();
 
-            Sender.Tell(new InitializeFinishedMessage());
+                player1 = Context.ActorOf(Props.Create(message.Player1), $"P1_{nameof(message.Player1)}_{Guid.NewGuid()}");
+                player2 = Context.ActorOf(Props.Create(message.Player2), $"P2_{nameof(message.Player2)}_{Guid.NewGuid()}");
+
+                var initP1 = player1.Ask<Try<InitializeFinishedMessage>>(new InitializePlayerMessage(playerNr: 1, data: message.Data),Utils.Timeout_Player_Initialize);
+                var initP2 = player2.Ask<Try<InitializeFinishedMessage>>(new InitializePlayerMessage(playerNr: 2, data: message.Data), Utils.Timeout_Player_Initialize);
+
+                (await initP1).ThrowIfFailure();
+                (await initP2).ThrowIfFailure();
+
+                previousResult = message.Data?
+                .OrderByDescending(e => e.Round)
+                .Select(e => new RoundResultMessage(player1Tip: e.Player1Tip, player1Result: e.Player1Result, player2Tip: e.Player2Tip, player2Result: e.Player2Result))
+                .FirstOrDefault();
+
+                return InitializeFinishedMessage.Instance;
+            }));
         }
 
         private async Task OnReveice_StartRoundMessage(StartRoundMessage message)
         {
-            var p1 = player1.Ask<TipMessage>(new GetTipMessage() { PreviousResult = previousResult });
-            var p2 = player2.Ask<TipMessage>(new GetTipMessage() { PreviousResult = previousResult });
-
-            var p1Tip = (await p1).Tip;
-            var p2Tip = (await p2).Tip;
-
-            var result = Evaluate(p1Tip,p2Tip);
-
-            previousResult = new RoundResultMessage()
+            Sender.Tell(await Try<RoundResultMessage>.Of(async () =>
             {
-                Player1Tip = p1Tip,
-                Player1Result = result.resP1,
-                Player2Tip = p2Tip,
-                Player2Result = result.resP2
-            };
+                Utils.MayFail();
 
-            Sender.Tell(previousResult) ;
+                var p1 = player1.Ask<Try<TipMessage>>(new GetTipMessage(previousResult: previousResult), Utils.Timeout_Player_GetTip);
+                var p2 = player2.Ask<Try<TipMessage>>(new GetTipMessage(previousResult: previousResult), Utils.Timeout_Player_GetTip);
+
+                var p1Tip = (await p1).OrElseThrow().Tip;
+                var p2Tip = (await p2).OrElseThrow().Tip;
+
+                var result = Evaluate(p1Tip, p2Tip);
+
+                previousResult = new RoundResultMessage(player1Tip: p1Tip, player1Result: result.resP1, player2Tip: p2Tip, player2Result: result.resP2);
+                return previousResult;
+            }));
         }
 
 

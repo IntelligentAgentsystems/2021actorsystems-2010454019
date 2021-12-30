@@ -8,5 +8,6 @@ namespace PrisonersDilemma.Messages
 {
     internal class StartRoundMessage
     {
+        public static StartRoundMessage Instance => new StartRoundMessage();
     }
 }

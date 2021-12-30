@@ -8,5 +8,6 @@ namespace PrisonersDilemma.Messages
 {
     internal class FinishedMessage
     {
+        public static FinishedMessage Instance => new FinishedMessage();
     }
 }

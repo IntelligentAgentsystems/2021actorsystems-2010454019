@@ -9,9 +9,16 @@ namespace PrisonersDilemma.Messages
 {
     internal class InitializePlaygroundMessage
     {
-        public Type Player1 { get; set; }
-        public Type Player2 { get; set; }
+        public InitializePlaygroundMessage(Type player1, Type player2, IList<ResultMessage> data)
+        {
+            Player1 = player1;
+            Player2 = player2;
+            Data = data;
+        }
 
-        public IList<ResultMessage> Data { get; set; }
+        public Type Player1 { get; private set; }
+        public Type Player2 { get; private set; }
+
+        public IList<ResultMessage> Data { get; private set; }
     }
 }

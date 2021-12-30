@@ -20,8 +20,12 @@ namespace PrisonersDilemma
 
         private async Task OnReceive_GetDataMessage(GetDataMessage message)
         {
-            var data = DummyStorage.Instance.Data.Where(e => e.IdGame == message.IdGame).ToList();
-            Sender.Tell(new GameDataMessage() { Data = data });
+            Sender.Tell(await Try<GameDataMessage>.Of(async () =>
+            {
+                Utils.MayFail();
+                var data = DummyStorage.Instance.Data.Where(e => e.IdGame == message.IdGame).ToList();
+                return new GameDataMessage(data: data);
+            }));
         }
     }
 }

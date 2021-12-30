@@ -12,7 +12,7 @@ namespace PrisonersDilemma.Helper
         public List<ResultMessage> Data { get; private set; }
 
 
-        private static DummyStorage instance = null;
+        private static DummyStorage instance;
         private DummyStorage() 
         { 
             Data = new List<ResultMessage>();
@@ -30,10 +30,10 @@ namespace PrisonersDilemma.Helper
         private object locker = new object();
         public void AddData(ResultMessage msg)
         {
-            //lock (locker)
-            // {
+            lock (locker)
+            {
                 Data.Add(msg);
-            //}
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ namespace PrisonersDilemma.Players
     {
         protected override async Task<bool> GetTip()
         {
-            return new System.Random().NextDouble() > 0.5;
+            return await Task.FromResult(new System.Random().NextDouble() > 0.5);
         }
     }
 }

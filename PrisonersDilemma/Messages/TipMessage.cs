@@ -8,6 +8,13 @@ namespace PrisonersDilemma.Messages
 {
     internal class TipMessage
     {
-        public bool Tip { get; set; }
+        public bool Tip { get; private set; }
+
+        public TipMessage(bool tip)
+        {
+            Tip = tip;
+        }
+
+
     }
 }
