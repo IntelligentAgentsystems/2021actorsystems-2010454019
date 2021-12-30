@@ -32,6 +32,7 @@ namespace PrisonersDilemma.Helper
         {
             lock (locker)
             {
+                //Console.WriteLine(Data.Count());
                 Data.Add(msg);
             }
         }

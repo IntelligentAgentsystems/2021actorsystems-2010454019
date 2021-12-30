@@ -28,21 +28,20 @@ namespace PrisonersDilemma
                 var writer = Context.ActorOf<Writer>($"{nameof(Writer)}_{Guid.NewGuid()}");
                 var reader = Context.ActorOf<Reader>($"{nameof(Reader)}_{Guid.NewGuid()}");
 
-                var data = (await reader.Ask<Try<GameDataMessage>>(new GetDataMessage(message.Properties.IdGame),Utils.Timeout_Reader_GetData)).OrElseThrow();
+                var data = (await reader.Ask<Try<GameDataMessage>>(new GetDataMessage(message.Properties.IdGame))).OrElseThrow();
 
                 (await playground.Ask<Try<InitializeFinishedMessage>>(
-                    new InitializePlaygroundMessage(player1:message.Properties.Player1,player2:message.Properties.Player2,data:data?.Data),
-                    Utils.Timeout_Playground_Initialize))
-                    .OrElseThrow();
+                    new InitializePlaygroundMessage(player1:message.Properties.Player1,player2:message.Properties.Player2,data:data?.Data)
+                    )).OrElseThrow();
 
 
                 int i = data == null || data.Data.Count() == 0 ? 0 : data.Data.Max(e => e.Round) + 1;
                 Console.WriteLine($"{message.Properties.IdGame}-Starting at round {i}");
                 while (i < message.Properties.Rounds)
                 {
-                    var result = (await playground.Ask<Try<RoundResultMessage>>(StartRoundMessage.Instance,Utils.Timeout_Playground_StartRound)).OrElseThrow();
+                    var result = (await playground.Ask<Try<RoundResultMessage>>(StartRoundMessage.Instance)).OrElseThrow();
                     (await writer.Ask<Try<FinishedMessage>>(new ResultMessage(idGame:message.Properties.IdGame,round:i,player1Result:result.Player1Result,
-                        player1Tip:result.Player1Tip,player2Result:result.Player2Result,player2Tip:result.Player2Tip),Utils.Timeout_Writer_Result)).OrElseThrow();
+                        player1Tip:result.Player1Tip,player2Result:result.Player2Result,player2Tip:result.Player2Tip))).OrElseThrow();
                     i++;
                 }
                 return new GameFinishMessage(message.Properties.IdGame);

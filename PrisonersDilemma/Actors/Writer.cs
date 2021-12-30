@@ -24,7 +24,7 @@ namespace PrisonersDilemma
                 Utils.MayFail();
 
                 DummyStorage.Instance.AddData(message);
-                Console.WriteLine($"{message.IdGame}-{message.Round}-{message.Player1Result}-{message.Player2Result}");
+                //Console.WriteLine($"{message.IdGame}-{message.Round}-{message.Player1Result}-{message.Player2Result}");
 
                 return FinishedMessage.Instance;
             }));

@@ -27,7 +27,7 @@ namespace PrisonersDilemma
                 {
                     var gameManager = Context.ActorOf<GameManager>($"{nameof(GameManager)}_{Guid.NewGuid()}");
                     var props = message.Properties[i];
-                    data.Add(props.IdGame, (gameManager, gameManager.Ask<Try<GameFinishMessage>>(new GameStartMessage(properties: props), Utils.Timeout_GameManager_GameStart(props.Rounds))));
+                    data.Add(props.IdGame, (gameManager, gameManager.AskTry<GameFinishMessage>(new GameStartMessage(properties: props), Utils.Timeout_GameManager_GameStart(props.Rounds))));
                 }
 
                 await Task.WhenAll(data.Values.Select(e => e.result));
@@ -53,12 +53,17 @@ namespace PrisonersDilemma
                 //restart failed games
                 while(unfinishedGameIds.Any())
                 {
+                    Thread.Sleep(1000);
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("==========================================");
+                    
                     data.Clear();
                     for (int i = 0; i < newProps.Count(); i++)
                     {
                         var gameManager = Context.ActorOf<GameManager>($"{nameof(GameManager)}_{Guid.NewGuid()}");
                         var props = newProps[i];
-                        data.Add(props.IdGame, (gameManager, gameManager.Ask<Try<GameFinishMessage>>(new GameStartMessage(properties: props),Utils.Timeout_GameManager_GameStart(props.Rounds))));
+                        data.Add(props.IdGame, (gameManager, gameManager.AskTry<GameFinishMessage>(new GameStartMessage(properties: props),Utils.Timeout_GameManager_GameStart(props.Rounds))));
                     }
 
                     await Task.WhenAll(data.Values.Select(e => e.result));

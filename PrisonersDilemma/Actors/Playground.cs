@@ -30,8 +30,8 @@ namespace PrisonersDilemma
                 player1 = Context.ActorOf(Props.Create(message.Player1), $"P1_{nameof(message.Player1)}_{Guid.NewGuid()}");
                 player2 = Context.ActorOf(Props.Create(message.Player2), $"P2_{nameof(message.Player2)}_{Guid.NewGuid()}");
 
-                var initP1 = player1.Ask<Try<InitializeFinishedMessage>>(new InitializePlayerMessage(playerNr: 1, data: message.Data),Utils.Timeout_Player_Initialize);
-                var initP2 = player2.Ask<Try<InitializeFinishedMessage>>(new InitializePlayerMessage(playerNr: 2, data: message.Data), Utils.Timeout_Player_Initialize);
+                var initP1 = player1.Ask<Try<InitializeFinishedMessage>>(new InitializePlayerMessage(playerNr: 1, data: message.Data));
+                var initP2 = player2.Ask<Try<InitializeFinishedMessage>>(new InitializePlayerMessage(playerNr: 2, data: message.Data));
 
                 (await initP1).ThrowIfFailure();
                 (await initP2).ThrowIfFailure();
@@ -51,8 +51,8 @@ namespace PrisonersDilemma
             {
                 Utils.MayFail();
 
-                var p1 = player1.Ask<Try<TipMessage>>(new GetTipMessage(previousResult: previousResult), Utils.Timeout_Player_GetTip);
-                var p2 = player2.Ask<Try<TipMessage>>(new GetTipMessage(previousResult: previousResult), Utils.Timeout_Player_GetTip);
+                var p1 = player1.Ask<Try<TipMessage>>(new GetTipMessage(previousResult: previousResult));
+                var p2 = player2.Ask<Try<TipMessage>>(new GetTipMessage(previousResult: previousResult));
 
                 var p1Tip = (await p1).OrElseThrow().Tip;
                 var p2Tip = (await p2).OrElseThrow().Tip;
