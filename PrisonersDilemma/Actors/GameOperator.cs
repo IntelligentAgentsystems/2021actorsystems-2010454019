@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using PrisonersDilemma.Actors;
 using PrisonersDilemma.Helper;
 using PrisonersDilemma.Messages;
 using PrisonersDilemma.Players;
@@ -21,7 +22,12 @@ namespace PrisonersDilemma
         {
             Sender.Tell(await Try<FinishedMessage>.Of(async () =>
             {
-                Dictionary<Guid, (IActorRef actor, Task<Try<GameFinishMessage>> result)> data = new Dictionary<Guid, (IActorRef, Task<Try<GameFinishMessage>>)>();
+                //Setup Broker
+                var brokerManager = Context.ActorOf<BrokerManager>($"{nameof(BrokerManager)}_{Guid.NewGuid()}");
+                (await brokerManager.Ask<Try<FinishedMessage>>(new SetupQueueMessage(message.Properties.Select(e => e.IdGame).ToList()))).OrElseThrow();
+
+
+                Dictionary<string, (IActorRef actor, Task<Try<GameFinishMessage>> result)> data = new Dictionary<string, (IActorRef, Task<Try<GameFinishMessage>>)>();
                 //run all games
                 for (int i = 0; i < message.Properties.Count(); i++)
                 {
@@ -34,12 +40,14 @@ namespace PrisonersDilemma
 
 
                 //kill gamemanagers & check if game finished
-                var unfinishedGameIds = new List<Guid>();
+                var unfinishedGameIds = new List<string>();
                 foreach ((var idGame, var value) in data)
                 {
                     var res = await value.result;
                     if (res.Success)
+                    {
                         Console.WriteLine($"{idGame}-FINISHED");
+                    }                    
                     else
                     {
                         Console.WriteLine($"{idGame}-FAILED-{res.Error}");
@@ -87,6 +95,7 @@ namespace PrisonersDilemma
                     newProps = newProps.Where(e => unfinishedGameIds.Contains(e.IdGame)).ToArray();
                 }
 
+                 (await brokerManager.Ask<Try<FinishedMessage>>(new DeleteQueueMessage(message.Properties.Select(e => e.IdGame).ToList()))).OrElseThrow();
                 return FinishedMessage.Instance;
             }));
         }

@@ -9,7 +9,7 @@ namespace PrisonersDilemma.Helper
 
     internal class GameProperties
     {
-        public Guid IdGame { get; set; }
+        public string IdGame { get; set; }
         public int Rounds { get; set; }
         public Type Player1 { get; set; }
         public Type Player2 { get; set; }

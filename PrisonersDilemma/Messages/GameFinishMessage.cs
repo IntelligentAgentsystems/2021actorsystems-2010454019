@@ -8,9 +8,9 @@ namespace PrisonersDilemma.Messages
 {
     internal class GameFinishMessage
     {
-        public Guid IdGame { get; private set; }
+        public string IdGame { get; private set; }
 
-        public GameFinishMessage(Guid idGame)
+        public GameFinishMessage(string idGame)
         {
             IdGame = idGame;
         }

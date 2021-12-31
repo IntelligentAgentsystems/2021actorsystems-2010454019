@@ -8,7 +8,7 @@ namespace PrisonersDilemma.Messages
 {
     internal class ResultMessage
     {
-        public ResultMessage(Guid idGame, int round, bool player1Tip, bool player2Tip, int player1Result, int player2Result)
+        public ResultMessage(string idGame, int round, bool player1Tip, bool player2Tip, int player1Result, int player2Result)
         {
             IdGame = idGame;
             Round = round;
@@ -18,7 +18,7 @@ namespace PrisonersDilemma.Messages
             Player2Result = player2Result;
         }
 
-        public Guid IdGame { get; private set; }
+        public string IdGame { get; private set; }
         public int Round { get; private set; }
         public bool Player1Tip { get; private set; }
         public bool Player2Tip { get; private set; }

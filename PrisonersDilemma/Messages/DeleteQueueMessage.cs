@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace PrisonersDilemma.Messages
 {
-    internal class GetDataMessage
+    internal class DeleteQueueMessage
     {
-        public string IdGame { get; private set; }
+        public List<string> GameIds { get; private set; }
 
-        public GetDataMessage(string idGame)
+        public DeleteQueueMessage(List<string> gameIds)
         {
-            IdGame = idGame;
+            GameIds = gameIds;
         }
     }
 }

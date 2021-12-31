@@ -28,7 +28,12 @@ namespace PrisonersDilemma
                 var writer = Context.ActorOf<Writer>($"{nameof(Writer)}_{Guid.NewGuid()}");
                 var reader = Context.ActorOf<Reader>($"{nameof(Reader)}_{Guid.NewGuid()}");
 
+                (await writer.Ask<Try<InitializeFinishedMessage>>(new InitializeWriterMessage(message.Properties.IdGame))).OrElseThrow();
+
+                (await reader.Ask<Try<InitializeFinishedMessage>>(new InitializeReaderMessage(message.Properties.IdGame))).OrElseThrow();
                 var data = (await reader.Ask<Try<GameDataMessage>>(new GetDataMessage(message.Properties.IdGame))).OrElseThrow();
+                
+
 
                 (await playground.Ask<Try<InitializeFinishedMessage>>(
                     new InitializePlaygroundMessage(player1:message.Properties.Player1,player2:message.Properties.Player2,data:data?.Data)

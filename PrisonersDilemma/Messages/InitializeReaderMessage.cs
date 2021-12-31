@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace PrisonersDilemma.Messages
 {
-    internal class GetDataMessage
+    internal class InitializeReaderMessage
     {
         public string IdGame { get; private set; }
 
-        public GetDataMessage(string idGame)
+        public InitializeReaderMessage(string idGame)
         {
             IdGame = idGame;
         }
