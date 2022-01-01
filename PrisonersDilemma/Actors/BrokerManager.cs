@@ -1,4 +1,5 @@
 ﻿using Akka.Actor;
+using Newtonsoft.Json;
 using PrisonersDilemma.Helper;
 using PrisonersDilemma.Messages;
 using RabbitMQ.Client;
@@ -68,20 +69,27 @@ namespace PrisonersDilemma.Actors
 
         private async Task OnReceive_DeleteQueueMessage(DeleteQueueMessage message)
         {
-            Sender.Tell(await Try<FinishedMessage>.Of(async () =>
+            Sender.Tell(await Try<GameDataMessage>.Of(async () =>
             {
+                //Get data & delete queues
+                var data = new List<ResultMessage>();
                 foreach (var item in message.GameIds)
                 {
+                    var result = channel.BasicGet(queue: item, autoAck: true);
+                    while (result != null)
+                    {
+                        data.Add(JsonConvert.DeserializeObject<ResultMessage>(Encoding.UTF8.GetString(result.Body.ToArray())));
+                        result = channel.BasicGet(queue: item, autoAck: true);
+                    }
                     channel.QueueDelete(queue: item);
                 }
 
                 channel.ExchangeDelete(Utils.ExchangeName);
-
                 channel.Close();
                 connection.Close();
                 factory = null;
 
-                return FinishedMessage.Instance;
+                return new GameDataMessage(data: data);
             }));
         }
     }

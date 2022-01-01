@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrisonersDilemma.Players
 {
-    internal class TruePlayer : AbstractPlayer
+    internal class AlwaysDefectPlayer : AbstractPlayer
     {
         protected override async Task<bool> GetTip()
         {

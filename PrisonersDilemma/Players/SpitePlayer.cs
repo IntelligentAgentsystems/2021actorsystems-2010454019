@@ -1,5 +1,4 @@
-﻿using Akka.Actor;
-using PrisonersDilemma.Messages;
+﻿using PrisonersDilemma.Messages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace PrisonersDilemma.Players
 {
-    internal class RandomPlayer : AbstractPlayer
+    internal class SpitePlayer : AbstractPlayer
     {
         protected override async Task<bool> GetTip()
         {
-            return new System.Random().NextDouble() > 0.5;
+            return lastResult == null ? false : MyLastTip.Value || EnemyLastTip.Value;
         }
     }
 }

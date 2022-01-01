@@ -20,7 +20,7 @@ namespace PrisonersDilemma
 
         private async Task OnReceive_StartGamesMessage(StartGamesMessage message)
         {
-            Sender.Tell(await Try<FinishedMessage>.Of(async () =>
+            Sender.Tell(await Try<GameDataMessage>.Of(async () =>
             {
                 //Setup Broker
                 var brokerManager = Context.ActorOf<BrokerManager>($"{nameof(BrokerManager)}_{Guid.NewGuid()}");
@@ -95,8 +95,8 @@ namespace PrisonersDilemma
                     newProps = newProps.Where(e => unfinishedGameIds.Contains(e.IdGame)).ToArray();
                 }
 
-                 (await brokerManager.Ask<Try<FinishedMessage>>(new DeleteQueueMessage(message.Properties.Select(e => e.IdGame).ToList()))).OrElseThrow();
-                return FinishedMessage.Instance;
+                return (await brokerManager.Ask<Try<GameDataMessage>>(new DeleteQueueMessage(message.Properties.Select(e => e.IdGame).ToList()))).OrElseThrow();
+
             }));
         }
     }

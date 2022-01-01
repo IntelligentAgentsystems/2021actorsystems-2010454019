@@ -21,7 +21,10 @@ namespace PrisonersDilemma.Players
             Sender.Tell(await Try<TipMessage>.Of(async () =>
             {
                 Utils.MayFail();
+                round++;
                 lastResult = message.PreviousResult;
+                MyLastTip = playerNr == 1 ? lastResult?.Player1Tip : lastResult?.Player2Tip;
+                EnemyLastTip = playerNr == 2 ? lastResult?.Player1Tip : lastResult?.Player2Tip;
                 return new TipMessage(await GetTip());
             }));
         }
@@ -33,6 +36,19 @@ namespace PrisonersDilemma.Players
             {
                 Utils.MayFail();
                 playerNr = message.PlayerNr;
+
+                var lRes = message?.Data.OrderByDescending(e => e.Round).FirstOrDefault();
+
+                if(lRes != null)
+                {
+                    round = lRes.Round;
+                    lastResult = new RoundResultMessage(player1Tip: lRes.Player1Tip, player2Tip: lRes.Player2Tip, player1Result: lRes.Player1Result, player2Result: lRes.Player2Result);
+
+                    MyLastTip = playerNr == 1 ? lastResult?.Player1Tip : lastResult?.Player2Tip;
+                    EnemyLastTip = playerNr == 2 ? lastResult?.Player1Tip : lastResult?.Player2Tip;
+                }
+             
+
                 await Initialize(message);
                 return InitializeFinishedMessage.Instance;
             }));
@@ -41,6 +57,9 @@ namespace PrisonersDilemma.Players
         protected abstract Task<bool> GetTip();
         protected virtual Task Initialize(InitializePlayerMessage message) => Task.CompletedTask;
         protected RoundResultMessage lastResult;
+        protected bool? MyLastTip;
+        protected bool? EnemyLastTip;
         protected int playerNr;
+        protected int round = 0;
     }
 }

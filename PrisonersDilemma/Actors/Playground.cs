@@ -36,11 +36,6 @@ namespace PrisonersDilemma
                 (await initP1).ThrowIfFailure();
                 (await initP2).ThrowIfFailure();
 
-                previousResult = message.Data?
-                .OrderByDescending(e => e.Round)
-                .Select(e => new RoundResultMessage(player1Tip: e.Player1Tip, player1Result: e.Player1Result, player2Tip: e.Player2Tip, player2Result: e.Player2Result))
-                .FirstOrDefault();
-
                 return InitializeFinishedMessage.Instance;
             }));
         }
