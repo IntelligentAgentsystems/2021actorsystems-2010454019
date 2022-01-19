@@ -1,0 +1,2363 @@
+Hello, World!
+a-d-AquireResources
+a-b-AquireResources
+a-e-AquireResources
+a-g-AquireResources
+a-c-AquireResources
+a-a-AquireResources
+a-f-AquireResources
+a-i-AquireResources
+b-e-AquireResources
+b-a-AquireResources
+b-b-AquireResources
+b-c-AquireResources
+b-d-AquireResources
+a-h-AquireResources
+b-f-AquireResources
+b-g-AquireResources
+b-h-AquireResources
+c-a-AquireResources
+b-i-AquireResources
+c-b-AquireResources
+c-c-AquireResources
+c-d-AquireResources
+c-e-AquireResources
+c-f-AquireResources
+c-g-AquireResources
+c-h-AquireResources
+c-i-AquireResources
+d-a-AquireResources
+d-b-AquireResources
+d-c-AquireResources
+d-d-AquireResources
+d-e-AquireResources
+d-f-AquireResources
+d-g-AquireResources
+d-h-AquireResources
+d-i-AquireResources
+e-a-AquireResources
+e-b-AquireResources
+e-c-AquireResources
+e-d-AquireResources
+e-e-AquireResources
+e-f-AquireResources
+e-g-AquireResources
+e-h-AquireResources
+e-i-AquireResources
+f-a-AquireResources
+f-b-AquireResources
+f-c-AquireResources
+f-d-AquireResources
+f-e-AquireResources
+f-f-AquireResources
+f-g-AquireResources
+f-h-AquireResources
+f-i-AquireResources
+g-a-AquireResources
+g-b-AquireResources
+g-e-AquireResources
+g-g-AquireResources
+g-c-AquireResources
+g-d-AquireResources
+g-f-AquireResources
+g-h-AquireResources
+g-i-AquireResources
+h-a-AquireResources
+h-b-AquireResources
+h-c-AquireResources
+h-d-AquireResources
+h-e-AquireResources
+h-f-AquireResources
+h-g-AquireResources
+i-a-AquireResources
+h-h-AquireResources
+i-c-AquireResources
+i-b-AquireResources
+i-e-AquireResources
+i-g-AquireResources
+i-h-AquireResources
+i-i-AquireResources
+h-i-AquireResources
+i-d-AquireResources
+i-f-AquireResources
+d-f-Started
+d-g-Started
+g-f-Started
+d-f-Starting at round 0
+d-g-Starting at round 0
+g-f-Starting at round 0
+a-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+a-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+b-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+c-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+e-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+d-g-Round:0-Finished
+d-f-Round:0-Finished
+f-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+f-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+g-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+h-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+h-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 26
+h-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+
+
+==========================================
+a-a-AquireResources
+a-b-AquireResources
+a-c-AquireResources
+a-d-AquireResources
+a-e-AquireResources
+a-f-AquireResources
+a-g-AquireResources
+a-h-AquireResources
+a-i-AquireResources
+b-a-AquireResources
+b-b-AquireResources
+b-c-AquireResources
+b-d-AquireResources
+b-e-AquireResources
+b-f-AquireResources
+b-g-AquireResources
+b-h-AquireResources
+b-i-AquireResources
+c-a-AquireResources
+c-b-AquireResources
+c-c-AquireResources
+c-d-AquireResources
+c-e-AquireResources
+c-f-AquireResources
+c-g-AquireResources
+c-h-AquireResources
+c-i-AquireResources
+d-a-AquireResources
+d-b-AquireResources
+d-c-AquireResources
+d-d-AquireResources
+d-e-AquireResources
+d-f-AquireResources
+d-g-AquireResources
+d-h-AquireResources
+d-i-AquireResources
+e-a-AquireResources
+e-b-AquireResources
+e-c-AquireResources
+e-d-AquireResources
+e-e-AquireResources
+e-f-AquireResources
+e-g-AquireResources
+e-h-AquireResources
+e-i-AquireResources
+f-a-AquireResources
+f-b-AquireResources
+f-c-AquireResources
+f-d-AquireResources
+f-e-AquireResources
+f-f-AquireResources
+f-g-AquireResources
+f-h-AquireResources
+f-i-AquireResources
+g-a-AquireResources
+g-b-AquireResources
+g-c-AquireResources
+g-d-AquireResources
+g-e-AquireResources
+g-f-AquireResources
+g-g-AquireResources
+g-h-AquireResources
+g-i-AquireResources
+h-a-AquireResources
+h-b-AquireResources
+h-c-AquireResources
+h-d-AquireResources
+h-e-AquireResources
+h-f-AquireResources
+h-g-AquireResources
+h-h-AquireResources
+h-i-AquireResources
+i-a-AquireResources
+i-b-AquireResources
+i-c-AquireResources
+i-d-AquireResources
+i-e-AquireResources
+i-f-AquireResources
+i-g-AquireResources
+i-h-AquireResources
+i-i-AquireResources
+a-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+a-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+b-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+c-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+d-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+e-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+g-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+h-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-a-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-b-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-c-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-d-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-e-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-f-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-g-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-h-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+i-i-FAILED-Timeout after 00:00:20 seconds-   at PrisonersDilemma.Helper.Extensions.AskTry[T](IActorRef actorref, Object message, TimeSpan timeout) in C:\Users\schau\OneDrive\Dokumente\2021actorsystems-2010454019\PrisonersDilemma\Helper\Extensions.cs:line 33
+f-h-Started
+a-i-Started
+b-f-Started
+d-a-Started
+a-b-Started
+c-a-Started
+d-c-Started
+d-g-Started
+d-h-Started
+g-b-Started
+d-b-Started
+h-f-Started
+d-d-Started
+c-c-Started
+f-f-Started
+d-e-Started
+g-c-Started
+h-h-Started
+f-i-Started
+e-h-Started
+g-g-Started
+a-e-Started
+a-c-Started
+g-i-Started
+i-f-Started
+b-c-Started
+i-a-Started
+f-a-Started
+b-g-Started
+g-d-Started
+e-i-Started
+f-c-Started
+c-b-Started
+g-a-Started
+i-b-Started
+b-i-Started
+e-b-Started
+a-f-Started
+g-e-Started
+a-g-Started
+h-i-Started
+i-i-Started
+a-d-Started
+g-f-Started
+d-f-Started
+i-e-Started
+f-e-Started
+b-a-Started
+b-h-Started
+h-a-Started
+a-h-Started
+b-e-Started
+f-d-Started
+c-d-Started
+c-h-Started
+f-g-Started
+h-b-Started
+c-i-Started
+b-d-Started
+b-b-Started
+h-c-Started
+a-a-Started
+e-a-Started
+c-e-Started
+h-d-Started
+e-c-Started
+e-g-Started
+g-h-Started
+i-g-Started
+f-b-Started
+d-i-Started
+e-f-Started
+h-g-Started
+c-g-Started
+i-c-Started
+i-h-Started
+c-f-Started
+e-e-Started
+e-d-Started
+i-d-Started
+h-e-Started
+
+
+==========================================
+a-a-AquireResources
+a-g-AquireResources
+b-b-AquireResources
+b-a-AquireResources
+b-g-AquireResources
+b-d-AquireResources
+c-b-AquireResources
+c-c-AquireResources
+c-g-AquireResources
+c-d-AquireResources
+d-a-AquireResources
+c-f-AquireResources
+c-e-AquireResources
+d-c-AquireResources
+d-d-AquireResources
+c-h-AquireResources
+d-b-AquireResources
+c-a-AquireResources
+c-i-AquireResources
+b-f-AquireResources
+b-h-AquireResources
+b-c-AquireResources
+b-e-AquireResources
+a-a-Started
+b-i-AquireResources
+c-c-Started
+d-e-AquireResources
+b-b-Started
+a-i-AquireResources
+d-a-Started
+b-g-Started
+a-h-AquireResources
+a-f-AquireResources
+d-f-AquireResources
+a-c-AquireResources
+a-e-AquireResources
+d-g-AquireResources
+a-d-AquireResources
+d-a-Starting at round 0
+c-b-Started
+b-a-Started
+a-b-AquireResources
+c-d-Started
+b-g-Starting at round 0
+b-b-Starting at round 0
+c-g-Started
+d-i-AquireResources
+d-h-AquireResources
+d-c-Started
+a-g-Started
+d-a-Round:0-Finished
+e-a-AquireResources
+c-c-Starting at round 0
+b-i-Started
+b-e-Started
+c-i-Started
+b-c-Started
+e-b-AquireResources
+a-h-Started
+a-f-Started
+c-a-Started
+d-e-Started
+b-b-Round:0-Finished
+d-b-Started
+b-g-Round:0-Finished
+c-h-Started
+b-d-Started
+c-i-Starting at round 0
+d-a-Round:1-Finished
+c-d-Starting at round 0
+b-b-Round:1-Finished
+d-f-Started
+d-d-Started
+a-d-Started
+b-g-Round:1-Finished
+d-i-Started
+c-f-Started
+e-c-AquireResources
+b-i-Starting at round 0
+b-g-Round:2-Finished
+a-f-Starting at round 0
+e-f-AquireResources
+e-h-AquireResources
+f-h-AquireResources
+e-i-AquireResources
+f-c-AquireResources
+f-b-AquireResources
+f-a-AquireResources
+c-i-Round:0-Finished
+e-e-AquireResources
+c-a-Starting at round 0
+d-d-Starting at round 0
+c-a-Round:0-Finished
+d-h-Started
+b-g-Round:3-Finished
+e-g-AquireResources
+h-a-AquireResources
+d-a-Round:2-Finished
+b-g-Round:4-Finished
+a-h-Starting at round 0
+f-d-AquireResources
+f-g-AquireResources
+f-e-AquireResources
+f-i-AquireResources
+h-b-AquireResources
+f-f-AquireResources
+g-d-AquireResources
+a-h-Round:0-Finished
+e-g-Started
+e-b-Started
+f-e-Started
+h-g-AquireResources
+i-e-AquireResources
+i-d-AquireResources
+f-d-Started
+i-f-AquireResources
+i-g-AquireResources
+h-b-Started
+a-h-Round:1-Finished
+f-g-Started
+g-d-Started
+h-d-AquireResources
+e-g-Starting at round 0
+e-b-Starting at round 0
+f-i-Started
+i-h-AquireResources
+e-b-Round:0-Finished
+e-g-Round:0-Finished
+e-b-Round:1-Finished
+e-g-Round:1-Finished
+i-g-Started
+i-f-Started
+e-g-Round:2-Finished
+i-i-AquireResources
+i-g-Starting at round 0
+h-f-AquireResources
+i-d-Started
+h-g-Started
+e-g-Round:3-Finished
+g-c-AquireResources
+b-i-Round:0-Finished
+a-d-Starting at round 0
+d-a-Round:3-Finished
+b-f-Started
+g-a-AquireResources
+h-b-Starting at round 0
+g-d-Starting at round 0
+d-e-Starting at round 0
+h-a-Started
+h-d-Started
+i-h-Started
+f-h-Started
+i-e-Started
+i-f-Starting at round 0
+e-h-Started
+a-h-Round:2-Finished
+g-e-AquireResources
+g-f-AquireResources
+f-i-Starting at round 0
+b-i-Round:1-Finished
+i-d-Starting at round 0
+g-d-Round:0-Finished
+e-g-Round:4-Finished
+d-e-Round:0-Finished
+d-a-Round:4-Finished
+h-g-Starting at round 0
+b-f-Starting at round 0
+h-d-Starting at round 0
+h-a-Starting at round 0
+i-h-Starting at round 0
+i-f-Round:0-Finished
+d-f-Starting at round 1
+i-e-Starting at round 0
+f-h-Starting at round 0
+e-h-Starting at round 0
+b-i-Round:2-Finished
+i-d-Round:0-Finished
+g-d-Round:1-Finished
+e-g-Round:5-Finished
+d-a-Round:5-Finished
+d-e-Round:1-Finished
+h-g-Round:0-Finished
+a-h-Round:3-Finished
+f-i-Round:0-Finished
+h-d-Round:0-Finished
+h-a-Round:0-Finished
+i-h-Round:0-Finished
+b-f-Round:0-Finished
+f-h-Round:0-Finished
+i-e-Round:0-Finished
+i-f-Round:1-Finished
+d-f-Round:1-Finished
+e-h-Round:0-Finished
+i-d-Round:1-Finished
+g-d-Round:2-Finished
+b-i-Round:3-Finished
+e-g-Round:6-Finished
+h-g-Round:1-Finished
+d-a-Round:6-Finished
+a-h-Round:4-Finished
+h-a-Round:1-Finished
+h-d-Round:1-Finished
+i-h-Round:1-Finished
+d-e-Round:2-Finished
+b-f-Round:1-Finished
+f-h-Round:1-Finished
+i-e-Round:1-Finished
+i-f-Round:2-Finished
+e-h-Round:1-Finished
+i-d-Round:2-Finished
+d-f-Round:2-Finished
+g-d-Round:3-Finished
+b-i-Round:4-Finished
+f-i-Round:1-Finished
+e-g-Round:7-Finished
+a-h-Round:5-Finished
+h-a-Round:2-Finished
+d-a-Round:7-Finished
+h-g-Round:2-Finished
+h-d-Round:2-Finished
+i-h-Round:2-Finished
+b-f-Round:2-Finished
+f-h-Round:2-Finished
+i-e-Round:2-Finished
+i-d-Round:3-Finished
+e-h-Round:2-Finished
+d-f-Round:3-Finished
+b-i-Round:5-Finished
+f-i-Round:2-Finished
+e-g-Round:8-Finished
+a-h-Round:6-Finished
+d-a-Round:8-Finished
+g-d-Round:4-Finished
+h-a-Round:3-Finished
+h-g-Round:3-Finished
+i-h-Round:3-Finished
+h-d-Round:3-Finished
+d-e-Round:3-Finished
+b-f-Round:3-Finished
+f-h-Round:3-Finished
+i-d-Round:4-Finished
+i-e-Round:3-Finished
+i-f-Round:3-Finished
+e-h-Round:3-Finished
+i-g-Round:0-Finished
+d-f-Round:4-Finished
+f-i-Round:3-Finished
+b-i-Round:6-Finished
+h-b-Round:0-Finished
+f-b-Started
+g-g-AquireResources
+g-d-Round:5-Finished
+a-h-Round:7-Finished
+h-a-Round:4-Finished
+d-a-Round:9-Finished
+d-e-Round:4-Finished
+f-h-Round:4-Finished
+i-d-Round:5-Finished
+i-f-Round:4-Finished
+h-g-Round:4-Finished
+e-h-Round:4-Finished
+i-g-Round:1-Finished
+e-g-Round:9-Finished
+i-h-Round:4-Finished
+h-d-Round:4-Finished
+b-i-Round:7-Finished
+h-b-Round:1-Finished
+f-i-Round:4-Finished
+d-f-Round:5-Finished
+i-e-Round:4-Finished
+b-f-Round:4-Finished
+f-a-Started
+d-e-Round:5-Finished
+f-h-Round:5-Finished
+h-a-Round:5-Finished
+f-b-Starting at round 0
+i-g-Round:2-Finished
+i-h-Round:5-Finished
+e-h-Round:5-Finished
+a-h-Round:8-Finished
+i-d-Round:6-Finished
+g-d-Round:6-Finished
+h-g-Round:5-Finished
+h-b-Round:2-Finished
+f-i-Round:5-Finished
+d-f-Round:6-Finished
+f-h-Round:6-Finished
+d-e-Round:6-Finished
+f-a-Starting at round 0
+h-a-Round:6-Finished
+b-i-Round:8-Finished
+i-e-Round:5-Finished
+b-f-Round:5-Finished
+i-f-Round:5-Finished
+h-d-Round:5-Finished
+g-i-AquireResources
+e-h-Round:6-Finished
+f-b-Round:0-Finished
+f-i-Round:6-Finished
+a-h-Round:9-Finished
+g-d-Round:7-Finished
+f-h-Round:7-Finished
+h-a-Round:7-Finished
+f-a-Round:0-Finished
+i-d-Round:7-Finished
+h-g-Round:6-Finished
+i-g-Round:3-Finished
+i-h-Round:6-Finished
+h-b-Round:3-Finished
+b-i-Round:9-Finished
+d-e-Round:7-Finished
+b-f-Round:6-Finished
+i-e-Round:6-Finished
+i-f-Round:6-Finished
+h-d-Round:6-Finished
+e-h-Round:7-Finished
+f-b-Round:1-Finished
+f-i-Round:7-Finished
+d-f-Round:7-Finished
+f-h-Round:8-Finished
+g-d-Round:8-Finished
+h-a-Round:8-Finished
+f-a-Round:1-Finished
+i-d-Round:8-Finished
+d-e-Round:8-Finished
+h-g-Round:7-Finished
+i-g-Round:4-Finished
+i-h-Round:7-Finished
+h-b-Round:4-Finished
+i-e-Round:7-Finished
+e-h-Round:8-Finished
+g-h-AquireResources
+f-e-Starting at round 0
+i-f-Round:7-Finished
+f-i-Round:8-Finished
+h-d-Round:7-Finished
+d-e-Round:9-Finished
+d-f-Round:8-Finished
+i-h-Round:8-Finished
+i-g-Round:5-Finished
+f-b-Round:2-Finished
+i-d-Round:9-Finished
+b-f-Round:7-Finished
+h-a-Round:9-Finished
+g-d-Round:9-Finished
+e-h-Round:9-Finished
+i-e-Round:8-Finished
+h-b-Round:5-Finished
+i-h-Round:9-Finished
+f-e-Round:0-Finished
+i-f-Round:8-Finished
+b-f-Round:8-Finished
+i-g-Round:6-Finished
+f-b-Round:3-Finished
+i-e-Round:9-Finished
+f-i-Round:9-Finished
+f-e-Round:1-Finished
+h-d-Round:8-Finished
+i-g-Round:7-Finished
+h-b-Round:6-Finished
+h-d-Round:9-Finished
+i-g-Round:8-Finished
+h-b-Round:7-Finished
+i-f-Round:9-Finished
+i-g-Round:9-Finished
+h-b-Round:8-Finished
+b-f-Round:9-Finished
+h-b-Round:9-Finished
+h-f-Started
+f-b-Round:4-Finished
+f-e-Round:2-Finished
+g-g-Started
+g-h-Started
+f-b-Round:5-Finished
+g-f-Started
+g-g-Starting at round 0
+g-a-Started
+g-i-Started
+h-f-Starting at round 0
+g-a-Starting at round 0
+g-i-Starting at round 0
+f-e-Round:3-Finished
+g-a-Round:0-Finished
+g-e-Started
+f-e-Round:4-Finished
+g-f-Starting at round 0
+d-f-Round:9-Finished
+f-h-Round:9-Finished
+f-a-Round:2-Finished
+h-g-Round:8-Finished
+g-f-Round:0-Finished
+f-a-Round:3-Finished
+c-a-Round:1-Finished
+g-f-Round:1-Finished
+f-a-Round:4-Finished
+g-a-Round:1-Finished
+f-d-Starting at round 0
+f-a-Round:5-Finished
+g-a-Round:2-Finished
+f-d-Round:0-Finished
+f-a-Round:6-Finished
+g-a-Round:3-Finished
+f-d-Round:1-Finished
+f-a-Round:7-Finished
+g-a-Round:4-Finished
+f-d-Round:2-Finished
+f-a-Round:8-Finished
+g-a-Round:5-Finished
+f-d-Round:3-Finished
+f-a-Round:9-Finished
+g-a-Round:6-Finished
+d-d-Round:0-Finished
+f-d-Round:4-Finished
+g-a-Round:7-Finished
+d-d-Round:1-Finished
+f-d-Round:5-Finished
+g-a-Round:8-Finished
+d-d-Round:2-Finished
+f-d-Round:6-Finished
+g-a-Round:9-Finished
+d-d-Round:3-Finished
+h-e-AquireResources
+f-d-Round:7-Finished
+d-d-Round:4-Finished
+c-f-Starting at round 0
+f-d-Round:8-Finished
+d-d-Round:5-Finished
+h-e-Started
+f-d-Round:9-Finished
+c-f-Round:0-Finished
+e-i-Started
+c-h-Starting at round 0
+d-d-Round:6-Finished
+h-e-Starting at round 0
+c-f-Round:1-Finished
+d-d-Round:7-Finished
+e-i-Starting at round 0
+h-e-Round:0-Finished
+d-d-Round:8-Finished
+c-f-Round:2-Finished
+h-e-Round:1-Finished
+d-d-Round:9-Finished
+c-f-Round:3-Finished
+e-i-Round:0-Finished
+h-e-Round:2-Finished
+c-f-Round:4-Finished
+e-i-Round:1-Finished
+h-e-Round:3-Finished
+c-f-Round:5-Finished
+e-i-Round:2-Finished
+c-f-Round:6-Finished
+h-e-Round:4-Finished
+e-i-Round:3-Finished
+c-f-Round:7-Finished
+h-e-Round:5-Finished
+e-i-Round:4-Finished
+c-f-Round:8-Finished
+h-e-Round:6-Finished
+c-h-Round:0-Finished
+e-i-Round:5-Finished
+c-f-Round:9-Finished
+c-h-Round:1-Finished
+h-e-Round:7-Finished
+e-i-Round:6-Finished
+c-h-Round:2-Finished
+h-e-Round:8-Finished
+e-i-Round:7-Finished
+c-h-Round:3-Finished
+h-e-Round:9-Finished
+e-i-Round:8-Finished
+g-e-Starting at round 0
+c-h-Round:4-Finished
+e-i-Round:9-Finished
+f-e-Round:5-Finished
+b-g-Round:5-Finished
+g-e-Round:0-Finished
+c-h-Round:5-Finished
+f-e-Round:6-Finished
+g-e-Round:1-Finished
+b-g-Round:6-Finished
+f-e-Round:7-Finished
+g-e-Round:2-Finished
+b-g-Round:7-Finished
+f-e-Round:8-Finished
+g-e-Round:3-Finished
+b-g-Round:8-Finished
+f-e-Round:9-Finished
+g-e-Round:4-Finished
+c-h-Round:6-Finished
+b-g-Round:9-Finished
+g-e-Round:5-Finished
+c-i-Round:1-Finished
+c-h-Round:7-Finished
+g-e-Round:6-Finished
+c-i-Round:2-Finished
+c-h-Round:8-Finished
+g-f-Round:2-Finished
+g-e-Round:7-Finished
+c-i-Round:3-Finished
+g-f-Round:3-Finished
+g-e-Round:8-Finished
+c-i-Round:4-Finished
+g-f-Round:4-Finished
+g-e-Round:9-Finished
+c-i-Round:5-Finished
+c-h-Round:9-Finished
+g-f-Round:5-Finished
+e-e-Started
+c-i-Round:6-Finished
+g-f-Round:6-Finished
+c-i-Round:7-Finished
+e-e-Starting at round 0
+g-f-Round:7-Finished
+c-i-Round:8-Finished
+e-e-Round:0-Finished
+g-f-Round:8-Finished
+c-i-Round:9-Finished
+e-e-Round:1-Finished
+f-c-Started
+g-f-Round:9-Finished
+b-c-Starting at round 0
+e-e-Round:2-Finished
+f-c-Starting at round 0
+b-c-Round:0-Finished
+e-e-Round:3-Finished
+f-c-Round:0-Finished
+b-c-Round:1-Finished
+h-c-AquireResources
+e-e-Round:4-Finished
+b-c-Round:2-Finished
+f-c-Round:1-Finished
+e-e-Round:5-Finished
+g-i-Round:0-Finished
+f-c-Round:2-Finished
+e-e-Round:6-Finished
+b-c-Round:3-Finished
+f-c-Round:3-Finished
+g-i-Round:1-Finished
+b-c-Round:4-Finished
+f-c-Round:4-Finished
+g-i-Round:2-Finished
+b-c-Round:5-Finished
+f-c-Round:5-Finished
+g-i-Round:3-Finished
+b-c-Round:6-Finished
+f-c-Round:6-Finished
+b-c-Round:7-Finished
+g-i-Round:4-Finished
+f-c-Round:7-Finished
+b-c-Round:8-Finished
+g-i-Round:5-Finished
+f-c-Round:8-Finished
+b-c-Round:9-Finished
+g-i-Round:6-Finished
+h-c-Started
+f-c-Round:9-Finished
+g-i-Round:7-Finished
+e-e-Round:7-Finished
+h-c-Starting at round 0
+g-i-Round:8-Finished
+e-e-Round:8-Finished
+h-c-Round:0-Finished
+g-i-Round:9-Finished
+e-e-Round:9-Finished
+e-f-Started
+c-b-Starting at round 0
+h-c-Round:1-Finished
+e-f-Starting at round 0
+c-b-Round:0-Finished
+h-c-Round:2-Finished
+e-f-Round:0-Finished
+g-g-Round:0-Finished
+c-b-Round:1-Finished
+e-f-Round:1-Finished
+h-c-Round:3-Finished
+c-b-Round:2-Finished
+e-f-Round:2-Finished
+h-c-Round:4-Finished
+c-b-Round:3-Finished
+e-f-Round:3-Finished
+h-c-Round:5-Finished
+c-b-Round:4-Finished
+e-f-Round:4-Finished
+h-c-Round:6-Finished
+c-b-Round:5-Finished
+e-f-Round:5-Finished
+h-c-Round:7-Finished
+c-b-Round:6-Finished
+e-f-Round:6-Finished
+g-g-Round:1-Finished
+c-b-Round:7-Finished
+h-c-Round:8-Finished
+g-g-Round:2-Finished
+c-b-Round:8-Finished
+h-c-Round:9-Finished
+e-f-Round:7-Finished
+g-g-Round:3-Finished
+c-b-Round:9-Finished
+e-f-Round:8-Finished
+b-d-Starting at round 0
+g-g-Round:4-Finished
+e-f-Round:9-Finished
+b-d-Round:0-Finished
+d-h-Starting at round 0
+g-g-Round:5-Finished
+b-d-Round:1-Finished
+d-h-Round:0-Finished
+g-g-Round:6-Finished
+b-d-Round:2-Finished
+d-h-Round:1-Finished
+g-g-Round:7-Finished
+b-d-Round:3-Finished
+d-h-Round:2-Finished
+b-d-Round:4-Finished
+g-g-Round:8-Finished
+d-h-Round:3-Finished
+b-d-Round:5-Finished
+g-g-Round:9-Finished
+d-h-Round:4-Finished
+f-b-Round:6-Finished
+b-d-Round:6-Finished
+d-h-Round:5-Finished
+f-b-Round:7-Finished
+b-d-Round:7-Finished
+d-h-Round:6-Finished
+f-b-Round:8-Finished
+b-d-Round:8-Finished
+d-h-Round:7-Finished
+f-b-Round:9-Finished
+b-d-Round:9-Finished
+h-f-Round:0-Finished
+f-f-Started
+d-h-Round:8-Finished
+h-f-Round:1-Finished
+f-f-Starting at round 0
+d-h-Round:9-Finished
+h-f-Round:2-Finished
+h-i-AquireResources
+f-f-Round:0-Finished
+g-b-AquireResources
+h-f-Round:3-Finished
+f-f-Round:1-Finished
+e-c-Started
+i-a-AquireResources
+f-f-Round:2-Finished
+h-i-Started
+e-c-Starting at round 0
+h-i-Starting at round 0
+h-f-Round:4-Finished
+e-c-Round:0-Finished
+h-i-Round:0-Finished
+h-f-Round:5-Finished
+e-c-Round:1-Finished
+h-i-Round:1-Finished
+h-f-Round:6-Finished
+e-c-Round:2-Finished
+h-i-Round:2-Finished
+h-f-Round:7-Finished
+e-c-Round:3-Finished
+h-i-Round:3-Finished
+h-f-Round:8-Finished
+e-c-Round:4-Finished
+f-f-Round:3-Finished
+i-a-Started
+e-c-Round:5-Finished
+f-f-Round:4-Finished
+i-a-Starting at round 0
+e-c-Round:6-Finished
+f-f-Round:5-Finished
+i-a-Round:0-Finished
+e-c-Round:7-Finished
+h-f-Round:9-Finished
+f-f-Round:6-Finished
+i-a-Round:1-Finished
+e-c-Round:8-Finished
+f-f-Round:7-Finished
+i-a-Round:2-Finished
+e-c-Round:9-Finished
+f-f-Round:8-Finished
+g-b-Started
+i-a-Round:3-Finished
+f-f-Round:9-Finished
+g-b-Starting at round 0
+h-i-Round:4-Finished
+i-a-Round:4-Finished
+g-b-Round:0-Finished
+h-i-Round:5-Finished
+i-a-Round:5-Finished
+g-b-Round:1-Finished
+h-i-Round:6-Finished
+i-a-Round:6-Finished
+g-b-Round:2-Finished
+h-i-Round:7-Finished
+i-a-Round:7-Finished
+g-b-Round:3-Finished
+h-i-Round:8-Finished
+i-a-Round:8-Finished
+g-b-Round:4-Finished
+h-i-Round:9-Finished
+i-a-Round:9-Finished
+a-f-Round:0-Finished
+e-d-AquireResources
+g-b-Round:5-Finished
+a-f-Round:1-Finished
+b-e-Starting at round 0
+g-b-Round:6-Finished
+b-e-Round:0-Finished
+e-d-Started
+a-f-Round:2-Finished
+b-e-Round:1-Finished
+e-d-Starting at round 0
+a-f-Round:3-Finished
+b-e-Round:2-Finished
+g-b-Round:7-Finished
+a-f-Round:4-Finished
+e-d-Round:0-Finished
+g-b-Round:8-Finished
+b-e-Round:3-Finished
+a-f-Round:5-Finished
+e-d-Round:1-Finished
+c-a-Round:2-Finished
+g-b-Round:9-Finished
+e-d-Round:2-Finished
+b-e-Round:4-Finished
+a-f-Round:6-Finished
+c-a-Round:3-Finished
+e-a-Started
+a-f-Round:7-Finished
+c-a-Round:4-Finished
+b-e-Round:5-Finished
+e-a-Starting at round 0
+c-a-Round:5-Finished
+b-e-Round:6-Finished
+e-d-Round:3-Finished
+a-f-Round:8-Finished
+b-e-Round:7-Finished
+c-a-Round:6-Finished
+e-d-Round:4-Finished
+b-e-Round:8-Finished
+c-a-Round:7-Finished
+e-d-Round:5-Finished
+b-e-Round:9-Finished
+c-a-Round:8-Finished
+a-f-Round:9-Finished
+e-d-Round:6-Finished
+e-a-Round:0-Finished
+c-a-Round:9-Finished
+e-d-Round:7-Finished
+d-c-Starting at round 0
+e-a-Round:1-Finished
+e-d-Round:8-Finished
+d-c-Round:0-Finished
+c-e-Started
+e-a-Round:2-Finished
+g-h-Starting at round 0
+d-c-Round:1-Finished
+e-d-Round:9-Finished
+g-h-Round:0-Finished
+e-a-Round:3-Finished
+c-e-Starting at round 0
+g-h-Round:1-Finished
+e-a-Round:4-Finished
+c-e-Round:0-Finished
+g-h-Round:2-Finished
+e-a-Round:5-Finished
+c-e-Round:1-Finished
+g-h-Round:3-Finished
+e-a-Round:6-Finished
+c-e-Round:2-Finished
+g-h-Round:4-Finished
+e-a-Round:7-Finished
+c-e-Round:3-Finished
+g-h-Round:5-Finished
+e-a-Round:8-Finished
+c-e-Round:4-Finished
+g-h-Round:6-Finished
+e-a-Round:9-Finished
+c-e-Round:5-Finished
+d-c-Round:2-Finished
+g-h-Round:7-Finished
+c-e-Round:6-Finished
+d-c-Round:3-Finished
+g-h-Round:8-Finished
+c-e-Round:7-Finished
+d-c-Round:4-Finished
+g-h-Round:9-Finished
+c-e-Round:8-Finished
+c-g-Starting at round 0
+d-c-Round:5-Finished
+c-e-Round:9-Finished
+c-g-Round:0-Finished
+a-g-Starting at round 0
+d-c-Round:6-Finished
+c-g-Round:1-Finished
+b-h-Started
+a-g-Round:0-Finished
+d-c-Round:7-Finished
+c-g-Round:2-Finished
+a-d-Round:0-Finished
+d-c-Round:8-Finished
+b-h-Starting at round 0
+c-g-Round:3-Finished
+a-g-Round:1-Finished
+a-d-Round:1-Finished
+b-h-Round:0-Finished
+d-c-Round:9-Finished
+c-g-Round:4-Finished
+i-c-AquireResources
+h-h-AquireResources
+a-g-Round:2-Finished
+b-h-Round:1-Finished
+c-g-Round:5-Finished
+b-h-Round:2-Finished
+a-g-Round:3-Finished
+a-d-Round:2-Finished
+c-d-Round:0-Finished
+i-b-AquireResources
+c-g-Round:6-Finished
+b-h-Round:3-Finished
+h-h-Started
+a-g-Round:4-Finished
+f-g-Starting at round 0
+a-g-Round:5-Finished
+a-d-Round:3-Finished
+b-h-Round:4-Finished
+h-h-Starting at round 0
+c-d-Round:1-Finished
+i-c-Started
+a-d-Round:4-Finished
+a-g-Round:6-Finished
+i-c-Starting at round 0
+c-d-Round:2-Finished
+b-h-Round:5-Finished
+c-g-Round:7-Finished
+f-g-Round:0-Finished
+b-h-Round:6-Finished
+h-h-Round:0-Finished
+a-g-Round:7-Finished
+i-c-Round:0-Finished
+c-d-Round:3-Finished
+h-h-Round:1-Finished
+a-g-Round:8-Finished
+c-d-Round:4-Finished
+h-h-Round:2-Finished
+f-g-Round:1-Finished
+i-c-Round:1-Finished
+b-h-Round:7-Finished
+c-d-Round:5-Finished
+i-c-Round:2-Finished
+b-h-Round:8-Finished
+h-h-Round:3-Finished
+i-c-Round:3-Finished
+c-d-Round:6-Finished
+h-h-Round:4-Finished
+i-c-Round:4-Finished
+b-h-Round:9-Finished
+f-g-Round:2-Finished
+i-b-Started
+i-c-Round:5-Finished
+f-g-Round:3-Finished
+i-b-Starting at round 0
+i-c-Round:6-Finished
+f-g-Round:4-Finished
+i-b-Round:0-Finished
+i-c-Round:7-Finished
+c-d-Round:7-Finished
+i-b-Round:1-Finished
+i-c-Round:8-Finished
+c-d-Round:8-Finished
+i-b-Round:2-Finished
+i-c-Round:9-Finished
+f-g-Round:5-Finished
+c-d-Round:9-Finished
+i-b-Round:3-Finished
+a-d-Round:5-Finished
+i-b-Round:4-Finished
+f-g-Round:6-Finished
+a-d-Round:6-Finished
+i-b-Round:5-Finished
+f-g-Round:7-Finished
+a-d-Round:7-Finished
+i-b-Round:6-Finished
+f-g-Round:8-Finished
+a-d-Round:8-Finished
+i-b-Round:7-Finished
+f-g-Round:9-Finished
+a-d-Round:9-Finished
+h-h-Round:5-Finished
+c-g-Round:8-Finished
+i-b-Round:8-Finished
+h-h-Round:6-Finished
+c-g-Round:9-Finished
+i-b-Round:9-Finished
+a-g-Round:9-Finished
+a-a-Starting at round 0
+g-c-Started
+h-h-Round:7-Finished
+a-a-Round:0-Finished
+g-c-Starting at round 0
+h-h-Round:8-Finished
+c-c-Round:0-Finished
+a-a-Round:1-Finished
+g-c-Round:0-Finished
+h-h-Round:9-Finished
+a-a-Round:2-Finished
+c-c-Round:1-Finished
+g-c-Round:1-Finished
+a-a-Round:3-Finished
+c-c-Round:2-Finished
+g-c-Round:2-Finished
+a-a-Round:4-Finished
+c-c-Round:3-Finished
+g-c-Round:3-Finished
+a-a-Round:5-Finished
+c-c-Round:4-Finished
+g-c-Round:4-Finished
+a-a-Round:6-Finished
+c-c-Round:5-Finished
+e-b-Round:2-Finished
+g-c-Round:5-Finished
+c-c-Round:6-Finished
+a-a-Round:7-Finished
+g-c-Round:6-Finished
+c-c-Round:7-Finished
+a-a-Round:8-Finished
+e-b-Round:3-Finished
+c-c-Round:8-Finished
+a-a-Round:9-Finished
+e-b-Round:4-Finished
+g-c-Round:7-Finished
+c-c-Round:9-Finished
+e-b-Round:5-Finished
+i-i-Started
+g-c-Round:8-Finished
+e-b-Round:6-Finished
+i-i-Starting at round 0
+g-c-Round:9-Finished
+e-b-Round:7-Finished
+d-g-Started
+i-i-Round:0-Finished
+a-c-Started
+i-i-Round:1-Finished
+d-g-Starting at round 1
+e-b-Round:8-Finished
+i-i-Round:2-Finished
+d-g-Round:1-Finished
+e-b-Round:9-Finished
+a-c-Starting at round 0
+a-e-Started
+d-g-Round:2-Finished
+a-c-Round:0-Finished
+i-i-Round:3-Finished
+d-g-Round:3-Finished
+a-c-Round:1-Finished
+i-i-Round:4-Finished
+d-g-Round:4-Finished
+a-c-Round:2-Finished
+i-i-Round:5-Finished
+d-g-Round:5-Finished
+a-c-Round:3-Finished
+i-i-Round:6-Finished
+d-g-Round:6-Finished
+a-c-Round:4-Finished
+i-i-Round:7-Finished
+d-g-Round:7-Finished
+a-e-Starting at round 0
+a-c-Round:5-Finished
+i-i-Round:8-Finished
+a-e-Round:0-Finished
+a-c-Round:6-Finished
+i-i-Round:9-Finished
+a-e-Round:1-Finished
+d-g-Round:8-Finished
+a-c-Round:7-Finished
+a-e-Round:2-Finished
+d-g-Round:9-Finished
+h-g-Round:9-Finished
+a-i-Started
+d-i-Starting at round 0
+b-a-Starting at round 0
+a-c-Round:8-Finished
+a-e-Round:3-Finished
+a-i-Starting at round 0
+a-c-Round:9-Finished
+b-a-Round:0-Finished
+d-i-Round:0-Finished
+a-i-Round:0-Finished
+a-e-Round:4-Finished
+d-i-Round:1-Finished
+a-i-Round:1-Finished
+b-a-Round:1-Finished
+d-i-Round:2-Finished
+a-i-Round:2-Finished
+b-a-Round:2-Finished
+d-i-Round:3-Finished
+a-i-Round:3-Finished
+b-a-Round:3-Finished
+a-i-Round:4-Finished
+d-i-Round:4-Finished
+b-a-Round:4-Finished
+a-e-Round:5-Finished
+d-i-Round:5-Finished
+b-a-Round:5-Finished
+a-e-Round:6-Finished
+d-i-Round:6-Finished
+b-a-Round:6-Finished
+a-e-Round:7-Finished
+d-i-Round:7-Finished
+b-a-Round:7-Finished
+a-i-Round:5-Finished
+a-e-Round:8-Finished
+d-i-Round:8-Finished
+a-i-Round:6-Finished
+a-e-Round:9-Finished
+b-a-Round:8-Finished
+d-i-Round:9-Finished
+a-i-Round:7-Finished
+d-b-Starting at round 0
+b-a-Round:9-Finished
+a-i-Round:8-Finished
+b-b-Round:2-Finished
+d-b-Round:0-Finished
+a-i-Round:9-Finished
+b-b-Round:3-Finished
+a-b-Started
+d-b-Round:1-Finished
+b-b-Round:4-Finished
+a-b-Starting at round 0
+d-b-Round:2-Finished
+b-b-Round:5-Finished
+a-b-Round:0-Finished
+d-b-Round:3-Finished
+b-b-Round:6-Finished
+a-b-Round:1-Finished
+d-b-Round:4-Finished
+b-b-Round:7-Finished
+a-b-Round:2-Finished
+d-b-Round:5-Finished
+b-b-Round:8-Finished
+a-b-Round:3-Finished
+d-b-Round:6-Finished
+b-b-Round:9-Finished
+a-b-Round:4-Finished
+d-b-Round:7-Finished
+a-b-Round:5-Finished
+d-b-Round:8-Finished
+a-b-Round:6-Finished
+d-b-Round:9-Finished
+a-b-Round:7-Finished
+a-b-Round:8-Finished
+a-b-Round:9-Finished
+a-a-FINISHED
+a-b-FINISHED
+a-c-FINISHED
+a-d-FINISHED
+a-e-FINISHED
+a-f-FINISHED
+a-g-FINISHED
+a-h-FINISHED
+a-i-FINISHED
+b-a-FINISHED
+b-b-FINISHED
+b-c-FINISHED
+b-d-FINISHED
+b-e-FINISHED
+b-f-FINISHED
+b-g-FINISHED
+b-h-FINISHED
+b-i-FINISHED
+c-a-FINISHED
+c-b-FINISHED
+c-c-FINISHED
+c-d-FINISHED
+c-e-FINISHED
+c-f-FINISHED
+c-g-FINISHED
+c-h-FINISHED
+c-i-FINISHED
+d-a-FINISHED
+d-b-FINISHED
+d-c-FINISHED
+d-d-FINISHED
+d-e-FINISHED
+d-f-FINISHED
+d-g-FINISHED
+d-h-FINISHED
+d-i-FINISHED
+e-a-FINISHED
+e-b-FINISHED
+e-c-FINISHED
+e-d-FINISHED
+e-e-FINISHED
+e-f-FINISHED
+e-g-FINISHED
+e-h-FINISHED
+e-i-FINISHED
+f-a-FINISHED
+f-b-FINISHED
+f-c-FINISHED
+f-d-FINISHED
+f-e-FINISHED
+f-f-FINISHED
+f-g-FINISHED
+f-h-FINISHED
+f-i-FINISHED
+g-a-FINISHED
+g-b-FINISHED
+g-c-FINISHED
+g-d-FINISHED
+g-e-FINISHED
+g-f-FINISHED
+g-g-FINISHED
+g-h-FINISHED
+g-i-FINISHED
+h-a-FINISHED
+h-b-FINISHED
+h-c-FINISHED
+h-d-FINISHED
+h-e-FINISHED
+h-f-FINISHED
+h-g-FINISHED
+h-h-FINISHED
+h-i-FINISHED
+i-a-FINISHED
+i-b-FINISHED
+i-c-FINISHED
+i-d-FINISHED
+i-e-FINISHED
+i-f-FINISHED
+i-g-FINISHED
+i-h-FINISHED
+i-i-FINISHED
+a-a;0;False;False;2;2
+a-a;1;False;False;2;2
+a-a;2;False;False;2;2
+a-a;3;False;False;2;2
+a-a;4;False;False;2;2
+a-a;5;False;False;2;2
+a-a;6;False;False;2;2
+a-a;7;False;False;2;2
+a-a;8;False;False;2;2
+a-a;9;False;False;2;2
+a-b;0;False;True;6;1
+a-b;1;False;True;6;1
+a-b;2;False;True;6;1
+a-b;3;False;True;6;1
+a-b;4;False;True;6;1
+a-b;5;False;True;6;1
+a-b;6;False;True;6;1
+a-b;7;False;True;6;1
+a-b;8;False;True;6;1
+a-b;9;False;True;6;1
+a-c;0;False;False;2;2
+a-c;1;False;False;2;2
+a-c;2;False;False;2;2
+a-c;3;False;False;2;2
+a-c;4;False;False;2;2
+a-c;5;False;False;2;2
+a-c;6;False;False;2;2
+a-c;7;False;False;2;2
+a-c;8;False;False;2;2
+a-c;9;False;False;2;2
+a-d;0;False;True;6;1
+a-d;1;False;False;2;2
+a-d;2;False;False;2;2
+a-d;3;False;False;2;2
+a-d;4;False;False;2;2
+a-d;5;False;False;2;2
+a-d;6;False;False;2;2
+a-d;7;False;False;2;2
+a-d;8;False;False;2;2
+a-d;9;False;False;2;2
+a-e;0;False;False;2;2
+a-e;1;False;False;2;2
+a-e;2;False;False;2;2
+a-e;3;False;False;2;2
+a-e;4;False;False;2;2
+a-e;5;False;False;2;2
+a-e;6;False;False;2;2
+a-e;7;False;False;2;2
+a-e;8;False;False;2;2
+a-e;9;False;False;2;2
+a-f;0;False;False;2;2
+a-f;1;False;True;6;1
+a-f;2;False;True;6;1
+a-f;3;False;True;6;1
+a-f;4;False;True;6;1
+a-f;5;False;True;6;1
+a-f;6;False;True;6;1
+a-f;7;False;True;6;1
+a-f;8;False;True;6;1
+a-f;9;False;True;6;1
+a-g;0;False;True;6;1
+a-g;1;False;True;6;1
+a-g;2;False;True;6;1
+a-g;3;False;True;6;1
+a-g;4;False;True;6;1
+a-g;5;False;False;2;2
+a-g;6;False;False;2;2
+a-g;7;False;False;2;2
+a-g;8;False;True;6;1
+a-g;9;False;False;2;2
+a-h;0;False;False;2;2
+a-h;1;False;False;2;2
+a-h;2;False;False;2;2
+a-h;3;False;False;2;2
+a-h;4;False;False;2;2
+a-h;5;False;False;2;2
+a-h;6;False;False;2;2
+a-h;7;False;False;2;2
+a-h;8;False;False;2;2
+a-h;9;False;False;2;2
+a-i;0;False;False;2;2
+a-i;1;False;False;2;2
+a-i;2;False;False;2;2
+a-i;3;False;False;2;2
+a-i;4;False;False;2;2
+a-i;5;False;False;2;2
+a-i;6;False;False;2;2
+a-i;7;False;False;2;2
+a-i;8;False;False;2;2
+a-i;9;False;False;2;2
+b-a;0;True;False;1;6
+b-a;1;True;False;1;6
+b-a;2;True;False;1;6
+b-a;3;True;False;1;6
+b-a;4;True;False;1;6
+b-a;5;True;False;1;6
+b-a;6;True;False;1;6
+b-a;7;True;False;1;6
+b-a;8;True;False;1;6
+b-a;9;True;False;1;6
+b-b;0;True;True;4;4
+b-b;1;True;True;4;4
+b-b;2;True;True;4;4
+b-b;3;True;True;4;4
+b-b;4;True;True;4;4
+b-b;5;True;True;4;4
+b-b;6;True;True;4;4
+b-b;7;True;True;4;4
+b-b;8;True;True;4;4
+b-b;9;True;True;4;4
+b-c;0;True;False;1;6
+b-c;1;True;True;4;4
+b-c;2;True;False;1;6
+b-c;3;True;False;1;6
+b-c;4;True;True;4;4
+b-c;5;True;True;4;4
+b-c;6;True;False;1;6
+b-c;7;True;False;1;6
+b-c;8;True;True;4;4
+b-c;9;True;True;4;4
+b-d;0;True;True;4;4
+b-d;1;True;True;4;4
+b-d;2;True;True;4;4
+b-d;3;True;True;4;4
+b-d;4;True;True;4;4
+b-d;5;True;True;4;4
+b-d;6;True;True;4;4
+b-d;7;True;True;4;4
+b-d;8;True;True;4;4
+b-d;9;True;True;4;4
+b-e;0;True;False;1;6
+b-e;1;True;True;4;4
+b-e;2;True;False;1;6
+b-e;3;True;True;4;4
+b-e;4;True;False;1;6
+b-e;5;True;True;4;4
+b-e;6;True;False;1;6
+b-e;7;True;True;4;4
+b-e;8;True;False;1;6
+b-e;9;True;True;4;4
+b-f;0;True;False;1;6
+b-f;1;True;True;4;4
+b-f;2;True;True;4;4
+b-f;3;True;True;4;4
+b-f;4;True;True;4;4
+b-f;5;True;True;4;4
+b-f;6;True;True;4;4
+b-f;7;True;True;4;4
+b-f;8;True;True;4;4
+b-f;9;True;True;4;4
+b-g;0;True;False;1;6
+b-g;1;True;True;4;4
+b-g;2;True;True;4;4
+b-g;3;True;False;1;6
+b-g;4;True;False;1;6
+b-g;5;True;True;4;4
+b-g;6;True;False;1;6
+b-g;7;True;True;4;4
+b-g;8;True;False;1;6
+b-g;9;True;False;1;6
+b-h;0;True;False;1;6
+b-h;1;True;True;4;4
+b-h;2;True;True;4;4
+b-h;3;True;True;4;4
+b-h;4;True;True;4;4
+b-h;5;True;True;4;4
+b-h;6;True;True;4;4
+b-h;7;True;True;4;4
+b-h;8;True;True;4;4
+b-h;9;True;True;4;4
+b-i;0;True;False;1;6
+b-i;1;True;True;4;4
+b-i;2;True;True;4;4
+b-i;3;True;True;4;4
+b-i;4;True;True;4;4
+b-i;5;True;True;4;4
+b-i;6;True;True;4;4
+b-i;7;True;True;4;4
+b-i;8;True;True;4;4
+b-i;9;True;True;4;4
+c-a;0;False;False;2;2
+c-a;1;False;False;2;2
+c-a;2;False;False;2;2
+c-a;3;False;False;2;2
+c-a;4;False;False;2;2
+c-a;5;False;False;2;2
+c-a;6;False;False;2;2
+c-a;7;False;False;2;2
+c-a;8;False;False;2;2
+c-a;9;False;False;2;2
+c-b;0;False;True;6;1
+c-b;1;True;True;4;4
+c-b;2;False;True;6;1
+c-b;3;False;True;6;1
+c-b;4;True;True;4;4
+c-b;5;True;True;4;4
+c-b;6;False;True;6;1
+c-b;7;False;True;6;1
+c-b;8;True;True;4;4
+c-b;9;True;True;4;4
+c-c;0;False;False;2;2
+c-c;1;False;False;2;2
+c-c;2;False;False;2;2
+c-c;3;False;False;2;2
+c-c;4;False;False;2;2
+c-c;5;False;False;2;2
+c-c;6;False;False;2;2
+c-c;7;False;False;2;2
+c-c;8;False;False;2;2
+c-c;9;False;False;2;2
+c-d;0;False;True;6;1
+c-d;1;True;False;1;6
+c-d;2;False;True;6;1
+c-d;3;False;False;2;2
+c-d;4;False;False;2;2
+c-d;5;False;False;2;2
+c-d;6;False;False;2;2
+c-d;7;False;False;2;2
+c-d;8;False;False;2;2
+c-d;9;False;False;2;2
+c-e;0;False;False;2;2
+c-e;1;False;False;2;2
+c-e;2;False;False;2;2
+c-e;3;False;False;2;2
+c-e;4;False;False;2;2
+c-e;5;False;False;2;2
+c-e;6;False;False;2;2
+c-e;7;False;False;2;2
+c-e;8;False;False;2;2
+c-e;9;False;False;2;2
+c-f;0;False;False;2;2
+c-f;1;False;True;6;1
+c-f;2;True;True;4;4
+c-f;3;False;True;6;1
+c-f;4;False;False;2;2
+c-f;5;False;False;2;2
+c-f;6;False;False;2;2
+c-f;7;False;False;2;2
+c-f;8;False;False;2;2
+c-f;9;False;False;2;2
+c-g;0;False;True;6;1
+c-g;1;True;False;1;6
+c-g;2;False;False;2;2
+c-g;3;False;False;2;2
+c-g;4;False;True;6;1
+c-g;5;True;True;4;4
+c-g;6;True;False;1;6
+c-g;7;False;True;6;1
+c-g;8;False;True;6;1
+c-g;9;True;False;1;6
+c-h;0;False;False;2;2
+c-h;1;False;False;2;2
+c-h;2;False;False;2;2
+c-h;3;False;False;2;2
+c-h;4;False;False;2;2
+c-h;5;False;False;2;2
+c-h;6;False;False;2;2
+c-h;7;False;False;2;2
+c-h;8;False;False;2;2
+c-h;9;False;False;2;2
+c-i;0;False;False;2;2
+c-i;1;False;False;2;2
+c-i;2;False;False;2;2
+c-i;3;False;False;2;2
+c-i;4;False;False;2;2
+c-i;5;False;False;2;2
+c-i;6;False;False;2;2
+c-i;7;False;False;2;2
+c-i;8;False;False;2;2
+c-i;9;False;False;2;2
+d-a;0;True;False;1;6
+d-a;1;False;False;2;2
+d-a;2;False;False;2;2
+d-a;3;False;False;2;2
+d-a;4;False;False;2;2
+d-a;5;False;False;2;2
+d-a;6;False;False;2;2
+d-a;7;False;False;2;2
+d-a;8;False;False;2;2
+d-a;9;False;False;2;2
+d-b;0;True;True;4;4
+d-b;1;True;True;4;4
+d-b;2;True;True;4;4
+d-b;3;True;True;4;4
+d-b;4;True;True;4;4
+d-b;5;True;True;4;4
+d-b;6;True;True;4;4
+d-b;7;True;True;4;4
+d-b;8;True;True;4;4
+d-b;9;True;True;4;4
+d-c;0;True;False;1;6
+d-c;1;False;True;6;1
+d-c;2;True;False;1;6
+d-c;3;False;False;2;2
+d-c;4;False;False;2;2
+d-c;5;False;False;2;2
+d-c;6;False;False;2;2
+d-c;7;False;False;2;2
+d-c;8;False;False;2;2
+d-c;9;False;False;2;2
+d-d;0;True;True;4;4
+d-d;1;True;True;4;4
+d-d;2;True;True;4;4
+d-d;3;True;True;4;4
+d-d;4;True;True;4;4
+d-d;5;True;True;4;4
+d-d;6;True;True;4;4
+d-d;7;True;True;4;4
+d-d;8;True;True;4;4
+d-d;9;True;True;4;4
+d-e;0;True;False;1;6
+d-e;1;False;True;6;1
+d-e;2;True;True;4;4
+d-e;3;True;False;1;6
+d-e;4;False;True;6;1
+d-e;5;True;True;4;4
+d-e;6;True;False;1;6
+d-e;7;False;True;6;1
+d-e;8;True;True;4;4
+d-e;9;True;False;1;6
+d-f;0;True;False;1;6
+d-f;1;True;False;1;6
+d-f;2;False;True;6;1
+d-f;3;True;True;4;4
+d-f;4;True;True;4;4
+d-f;5;True;True;4;4
+d-f;6;True;True;4;4
+d-f;7;True;True;4;4
+d-f;8;True;True;4;4
+d-f;9;True;True;4;4
+d-g;0;True;True;4;4
+d-g;1;True;False;1;6
+d-g;2;False;False;2;2
+d-g;3;False;True;6;1
+d-g;4;True;False;1;6
+d-g;5;False;False;2;2
+d-g;6;False;False;2;2
+d-g;7;False;True;6;1
+d-g;8;True;False;1;6
+d-g;9;False;True;6;1
+d-h;0;True;False;1;6
+d-h;1;False;True;6;1
+d-h;2;True;True;4;4
+d-h;3;True;True;4;4
+d-h;4;True;True;4;4
+d-h;5;True;True;4;4
+d-h;6;True;True;4;4
+d-h;7;True;True;4;4
+d-h;8;True;True;4;4
+d-h;9;True;True;4;4
+d-i;0;True;False;1;6
+d-i;1;False;True;6;1
+d-i;2;True;False;1;6
+d-i;3;False;True;6;1
+d-i;4;True;False;1;6
+d-i;5;False;True;6;1
+d-i;6;True;False;1;6
+d-i;7;False;True;6;1
+d-i;8;True;False;1;6
+d-i;9;False;True;6;1
+e-a;0;False;False;2;2
+e-a;1;False;False;2;2
+e-a;2;False;False;2;2
+e-a;3;False;False;2;2
+e-a;4;False;False;2;2
+e-a;5;False;False;2;2
+e-a;6;False;False;2;2
+e-a;7;False;False;2;2
+e-a;8;False;False;2;2
+e-a;9;False;False;2;2
+e-b;0;False;True;6;1
+e-b;1;True;True;4;4
+e-b;2;False;True;6;1
+e-b;3;True;True;4;4
+e-b;4;False;True;6;1
+e-b;5;True;True;4;4
+e-b;6;False;True;6;1
+e-b;7;True;True;4;4
+e-b;8;False;True;6;1
+e-b;9;True;True;4;4
+e-c;0;False;False;2;2
+e-c;1;False;False;2;2
+e-c;2;False;False;2;2
+e-c;3;False;False;2;2
+e-c;4;False;False;2;2
+e-c;5;False;False;2;2
+e-c;6;False;False;2;2
+e-c;7;False;False;2;2
+e-c;8;False;False;2;2
+e-c;9;False;False;2;2
+e-d;0;False;True;6;1
+e-d;1;True;False;1;6
+e-d;2;True;True;4;4
+e-d;3;False;True;6;1
+e-d;4;True;False;1;6
+e-d;5;True;True;4;4
+e-d;6;False;True;6;1
+e-d;7;True;False;1;6
+e-d;8;True;True;4;4
+e-d;9;False;True;6;1
+e-e;0;False;False;2;2
+e-e;1;False;False;2;2
+e-e;2;False;False;2;2
+e-e;3;False;False;2;2
+e-e;4;False;False;2;2
+e-e;5;False;False;2;2
+e-e;6;False;False;2;2
+e-e;7;False;False;2;2
+e-e;8;False;False;2;2
+e-e;9;False;False;2;2
+e-f;0;False;False;2;2
+e-f;1;False;True;6;1
+e-f;2;True;True;4;4
+e-f;3;False;True;6;1
+e-f;4;True;False;1;6
+e-f;5;True;True;4;4
+e-f;6;False;True;6;1
+e-f;7;True;False;1;6
+e-f;8;True;True;4;4
+e-f;9;False;True;6;1
+e-g;0;False;False;2;2
+e-g;1;False;True;6;1
+e-g;2;True;False;1;6
+e-g;3;True;True;4;4
+e-g;4;False;False;2;2
+e-g;5;False;False;2;2
+e-g;6;False;True;6;1
+e-g;7;True;False;1;6
+e-g;8;True;False;1;6
+e-g;9;True;False;1;6
+e-h;0;False;False;2;2
+e-h;1;False;False;2;2
+e-h;2;False;False;2;2
+e-h;3;False;False;2;2
+e-h;4;False;False;2;2
+e-h;5;False;False;2;2
+e-h;6;False;False;2;2
+e-h;7;False;False;2;2
+e-h;8;False;False;2;2
+e-h;9;False;False;2;2
+e-i;0;False;False;2;2
+e-i;1;False;False;2;2
+e-i;2;False;False;2;2
+e-i;3;False;False;2;2
+e-i;4;False;False;2;2
+e-i;5;False;False;2;2
+e-i;6;False;False;2;2
+e-i;7;False;False;2;2
+e-i;8;False;False;2;2
+e-i;9;False;False;2;2
+f-a;0;False;False;2;2
+f-a;1;True;False;1;6
+f-a;2;True;False;1;6
+f-a;3;True;False;1;6
+f-a;4;True;False;1;6
+f-a;5;True;False;1;6
+f-a;6;True;False;1;6
+f-a;7;True;False;1;6
+f-a;8;True;False;1;6
+f-a;9;True;False;1;6
+f-b;0;False;True;6;1
+f-b;1;True;True;4;4
+f-b;2;True;True;4;4
+f-b;3;True;True;4;4
+f-b;4;True;True;4;4
+f-b;5;True;True;4;4
+f-b;6;True;True;4;4
+f-b;7;True;True;4;4
+f-b;8;True;True;4;4
+f-b;9;True;True;4;4
+f-c;0;False;False;2;2
+f-c;1;True;False;1;6
+f-c;2;True;True;4;4
+f-c;3;True;False;1;6
+f-c;4;False;False;2;2
+f-c;5;False;False;2;2
+f-c;6;False;False;2;2
+f-c;7;False;False;2;2
+f-c;8;False;False;2;2
+f-c;9;False;False;2;2
+f-d;0;False;True;6;1
+f-d;1;True;False;1;6
+f-d;2;True;True;4;4
+f-d;3;True;True;4;4
+f-d;4;True;True;4;4
+f-d;5;True;True;4;4
+f-d;6;True;True;4;4
+f-d;7;True;True;4;4
+f-d;8;True;True;4;4
+f-d;9;True;True;4;4
+f-e;0;False;False;2;2
+f-e;1;True;False;1;6
+f-e;2;True;True;4;4
+f-e;3;True;False;1;6
+f-e;4;False;True;6;1
+f-e;5;True;True;4;4
+f-e;6;True;False;1;6
+f-e;7;False;True;6;1
+f-e;8;True;True;4;4
+f-e;9;True;False;1;6
+f-f;0;False;False;2;2
+f-f;1;True;True;4;4
+f-f;2;True;True;4;4
+f-f;3;True;True;4;4
+f-f;4;True;True;4;4
+f-f;5;True;True;4;4
+f-f;6;True;True;4;4
+f-f;7;True;True;4;4
+f-f;8;True;True;4;4
+f-f;9;True;True;4;4
+f-g;0;False;False;2;2
+f-g;1;True;True;4;4
+f-g;2;True;True;4;4
+f-g;3;True;True;4;4
+f-g;4;True;True;4;4
+f-g;5;True;False;1;6
+f-g;6;False;False;2;2
+f-g;7;False;False;2;2
+f-g;8;False;False;2;2
+f-g;9;False;True;6;1
+f-h;0;False;False;2;2
+f-h;1;True;False;1;6
+f-h;2;True;True;4;4
+f-h;3;True;True;4;4
+f-h;4;True;True;4;4
+f-h;5;True;True;4;4
+f-h;6;True;True;4;4
+f-h;7;True;True;4;4
+f-h;8;True;True;4;4
+f-h;9;True;True;4;4
+f-i;0;False;False;2;2
+f-i;1;True;False;1;6
+f-i;2;True;True;4;4
+f-i;3;True;True;4;4
+f-i;4;True;True;4;4
+f-i;5;True;True;4;4
+f-i;6;True;True;4;4
+f-i;7;True;True;4;4
+f-i;8;True;True;4;4
+f-i;9;True;True;4;4
+g-a;0;False;False;2;2
+g-a;1;False;False;2;2
+g-a;2;True;False;1;6
+g-a;3;False;False;2;2
+g-a;4;True;False;1;6
+g-a;5;False;False;2;2
+g-a;6;True;False;1;6
+g-a;7;False;False;2;2
+g-a;8;True;False;1;6
+g-a;9;False;False;2;2
+g-b;0;False;True;6;1
+g-b;1;False;True;6;1
+g-b;2;True;True;4;4
+g-b;3;False;True;6;1
+g-b;4;False;True;6;1
+g-b;5;True;True;4;4
+g-b;6;False;True;6;1
+g-b;7;False;True;6;1
+g-b;8;False;True;6;1
+g-b;9;True;True;4;4
+g-c;0;False;False;2;2
+g-c;1;True;False;1;6
+g-c;2;False;True;6;1
+g-c;3;True;False;1;6
+g-c;4;True;False;1;6
+g-c;5;True;True;4;4
+g-c;6;True;True;4;4
+g-c;7;False;False;2;2
+g-c;8;True;False;1;6
+g-c;9;False;True;6;1
+g-d;0;False;True;6;1
+g-d;1;True;False;1;6
+g-d;2;True;True;4;4
+g-d;3;True;True;4;4
+g-d;4;True;True;4;4
+g-d;5;True;True;4;4
+g-d;6;True;True;4;4
+g-d;7;True;True;4;4
+g-d;8;True;True;4;4
+g-d;9;True;True;4;4
+g-e;0;True;False;1;6
+g-e;1;False;True;6;1
+g-e;2;True;True;4;4
+g-e;3;False;False;2;2
+g-e;4;True;False;1;6
+g-e;5;True;True;4;4
+g-e;6;False;False;2;2
+g-e;7;True;False;1;6
+g-e;8;False;True;6;1
+g-e;9;True;True;4;4
+g-f;0;False;False;2;2
+g-f;1;True;True;4;4
+g-f;2;True;True;4;4
+g-f;3;True;True;4;4
+g-f;4;False;True;6;1
+g-f;5;False;False;2;2
+g-f;6;False;False;2;2
+g-f;7;False;False;2;2
+g-f;8;True;False;1;6
+g-f;9;True;True;4;4
+g-g;0;False;True;6;1
+g-g;1;False;True;6;1
+g-g;2;True;True;4;4
+g-g;3;True;True;4;4
+g-g;4;False;True;6;1
+g-g;5;False;True;6;1
+g-g;6;False;True;6;1
+g-g;7;True;False;1;6
+g-g;8;True;False;1;6
+g-g;9;False;False;2;2
+g-h;0;True;False;1;6
+g-h;1;True;True;4;4
+g-h;2;False;True;6;1
+g-h;3;True;True;4;4
+g-h;4;True;True;4;4
+g-h;5;False;True;6;1
+g-h;6;False;True;6;1
+g-h;7;False;True;6;1
+g-h;8;True;True;4;4
+g-h;9;False;True;6;1
+g-i;0;True;False;1;6
+g-i;1;False;True;6;1
+g-i;2;True;False;1;6
+g-i;3;True;True;4;4
+g-i;4;False;True;6;1
+g-i;5;True;False;1;6
+g-i;6;False;True;6;1
+g-i;7;False;False;2;2
+g-i;8;True;False;1;6
+g-i;9;False;True;6;1
+h-a;0;False;False;2;2
+h-a;1;False;False;2;2
+h-a;2;False;False;2;2
+h-a;3;False;False;2;2
+h-a;4;False;False;2;2
+h-a;5;False;False;2;2
+h-a;6;False;False;2;2
+h-a;7;False;False;2;2
+h-a;8;False;False;2;2
+h-a;9;False;False;2;2
+h-b;0;False;True;6;1
+h-b;1;True;True;4;4
+h-b;2;True;True;4;4
+h-b;3;True;True;4;4
+h-b;4;True;True;4;4
+h-b;5;True;True;4;4
+h-b;6;True;True;4;4
+h-b;7;True;True;4;4
+h-b;8;True;True;4;4
+h-b;9;True;True;4;4
+h-c;0;False;False;2;2
+h-c;1;False;False;2;2
+h-c;2;False;False;2;2
+h-c;3;False;False;2;2
+h-c;4;False;False;2;2
+h-c;5;False;False;2;2
+h-c;6;False;False;2;2
+h-c;7;False;False;2;2
+h-c;8;False;False;2;2
+h-c;9;False;False;2;2
+h-d;0;False;True;6;1
+h-d;1;True;False;1;6
+h-d;2;True;True;4;4
+h-d;3;True;True;4;4
+h-d;4;True;True;4;4
+h-d;5;True;True;4;4
+h-d;6;True;True;4;4
+h-d;7;True;True;4;4
+h-d;8;True;True;4;4
+h-d;9;True;True;4;4
+h-e;0;False;False;2;2
+h-e;1;False;False;2;2
+h-e;2;False;False;2;2
+h-e;3;False;False;2;2
+h-e;4;False;False;2;2
+h-e;5;False;False;2;2
+h-e;6;False;False;2;2
+h-e;7;False;False;2;2
+h-e;8;False;False;2;2
+h-e;9;False;False;2;2
+h-f;0;False;False;2;2
+h-f;1;False;True;6;1
+h-f;2;True;True;4;4
+h-f;3;True;True;4;4
+h-f;4;True;True;4;4
+h-f;5;True;True;4;4
+h-f;6;True;True;4;4
+h-f;7;True;True;4;4
+h-f;8;True;True;4;4
+h-f;9;True;True;4;4
+h-g;0;False;True;6;1
+h-g;1;True;False;1;6
+h-g;2;True;False;1;6
+h-g;3;True;True;4;4
+h-g;4;True;True;4;4
+h-g;5;True;True;4;4
+h-g;6;True;False;1;6
+h-g;7;True;False;1;6
+h-g;8;True;False;1;6
+h-g;9;True;True;4;4
+h-h;0;False;False;2;2
+h-h;1;False;False;2;2
+h-h;2;False;False;2;2
+h-h;3;False;False;2;2
+h-h;4;False;False;2;2
+h-h;5;False;False;2;2
+h-h;6;False;False;2;2
+h-h;7;False;False;2;2
+h-h;8;False;False;2;2
+h-h;9;False;False;2;2
+h-i;0;False;False;2;2
+h-i;1;False;False;2;2
+h-i;2;False;False;2;2
+h-i;3;False;False;2;2
+h-i;4;False;False;2;2
+h-i;5;False;False;2;2
+h-i;6;False;False;2;2
+h-i;7;False;False;2;2
+h-i;8;False;False;2;2
+h-i;9;False;False;2;2
+i-a;0;False;False;2;2
+i-a;1;False;False;2;2
+i-a;2;False;False;2;2
+i-a;3;False;False;2;2
+i-a;4;False;False;2;2
+i-a;5;False;False;2;2
+i-a;6;False;False;2;2
+i-a;7;False;False;2;2
+i-a;8;False;False;2;2
+i-a;9;False;False;2;2
+i-b;0;False;True;6;1
+i-b;1;True;True;4;4
+i-b;2;True;True;4;4
+i-b;3;True;True;4;4
+i-b;4;True;True;4;4
+i-b;5;True;True;4;4
+i-b;6;True;True;4;4
+i-b;7;True;True;4;4
+i-b;8;True;True;4;4
+i-b;9;True;True;4;4
+i-c;0;False;False;2;2
+i-c;1;False;False;2;2
+i-c;2;False;False;2;2
+i-c;3;False;False;2;2
+i-c;4;False;False;2;2
+i-c;5;False;False;2;2
+i-c;6;False;False;2;2
+i-c;7;False;False;2;2
+i-c;8;False;False;2;2
+i-c;9;False;False;2;2
+i-d;0;False;True;6;1
+i-d;1;True;False;1;6
+i-d;2;False;True;6;1
+i-d;3;True;False;1;6
+i-d;4;False;True;6;1
+i-d;5;True;False;1;6
+i-d;6;False;True;6;1
+i-d;7;True;False;1;6
+i-d;8;False;True;6;1
+i-d;9;True;False;1;6
+i-e;0;False;False;2;2
+i-e;1;False;False;2;2
+i-e;2;False;False;2;2
+i-e;3;False;False;2;2
+i-e;4;False;False;2;2
+i-e;5;False;False;2;2
+i-e;6;False;False;2;2
+i-e;7;False;False;2;2
+i-e;8;False;False;2;2
+i-e;9;False;False;2;2
+i-f;0;False;False;2;2
+i-f;1;False;True;6;1
+i-f;2;True;True;4;4
+i-f;3;True;True;4;4
+i-f;4;True;True;4;4
+i-f;5;True;True;4;4
+i-f;6;True;True;4;4
+i-f;7;True;True;4;4
+i-f;8;True;True;4;4
+i-f;9;True;True;4;4
+i-g;0;False;False;2;2
+i-g;1;False;True;6;1
+i-g;2;True;True;4;4
+i-g;3;True;False;1;6
+i-g;4;False;True;6;1
+i-g;5;True;False;1;6
+i-g;6;False;True;6;1
+i-g;7;True;False;1;6
+i-g;8;False;True;6;1
+i-g;9;True;True;4;4
+i-h;0;False;False;2;2
+i-h;1;False;False;2;2
+i-h;2;False;False;2;2
+i-h;3;False;False;2;2
+i-h;4;False;False;2;2
+i-h;5;False;False;2;2
+i-h;6;False;False;2;2
+i-h;7;False;False;2;2
+i-h;8;False;False;2;2
+i-h;9;False;False;2;2
+i-i;0;False;False;2;2
+i-i;1;False;False;2;2
+i-i;2;False;False;2;2
+i-i;3;False;False;2;2
+i-i;4;False;False;2;2
+i-i;5;False;False;2;2
+i-i;6;False;False;2;2
+i-i;7;False;False;2;2
+i-i;8;False;False;2;2
+i-i;9;False;False;2;2
+FIN
