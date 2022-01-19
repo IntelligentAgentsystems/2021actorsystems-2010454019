@@ -1,7 +1,9 @@
 ﻿using Akka.Actor;
+using Newtonsoft.Json;
 using PrisonersDilemma.Helper;
 using PrisonersDilemma.Messages;
 using PrisonersDilemma.Players;
+using RabbitMQ.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +17,7 @@ namespace PrisonersDilemma
 
         public GameManager()
         {
-            ReceiveAsync<GameStartMessage>(OnReceive_GameStartMessage);
+            ReceiveAsync<GameStartMessage>(OnReceive_GameStartMessage);         
         }
 
         private async Task OnReceive_GameStartMessage(GameStartMessage message)
@@ -24,14 +26,16 @@ namespace PrisonersDilemma
             {
                 Utils.MayFail();
 
+                Console.WriteLine($"{message.Properties.IdGame}->AquireResources");
+                var writer = Context.ActorOf<BrokerCommunicator>($"{nameof(BrokerCommunicator)}_{Guid.NewGuid()}");
+
+                (await writer.Ask<Try<InitializeFinishedMessage>>(new InitializeWriterMessage(message.Properties.IdGame, message.Hostname, message.Port))).OrElseThrow();
+
+                Console.WriteLine($"{message.Properties.IdGame}->Started");
+
                 var playground = Context.ActorOf<Playground>($"{nameof(Playground)}_{Guid.NewGuid()}");
-                var writer = Context.ActorOf<Writer>($"{nameof(Writer)}_{Guid.NewGuid()}");
-                var reader = Context.ActorOf<Reader>($"{nameof(Reader)}_{Guid.NewGuid()}");
-
-                (await writer.Ask<Try<InitializeFinishedMessage>>(new InitializeWriterMessage(message.Properties.IdGame))).OrElseThrow();
-
-                (await reader.Ask<Try<InitializeFinishedMessage>>(new InitializeReaderMessage(message.Properties.IdGame))).OrElseThrow();
-                var data = (await reader.Ask<Try<GameDataMessage>>(new GetDataMessage(message.Properties.IdGame))).OrElseThrow();
+               
+                var data = (await writer.Ask<Try<GameDataMessage>>(new GetDataMessage(message.Properties.IdGame))).OrElseThrow();
                 
 
 
@@ -40,13 +44,16 @@ namespace PrisonersDilemma
                     )).OrElseThrow();
 
 
-                int i = data == null || data.Data.Count() == 0 ? 0 : data.Data.Max(e => e.Round) + 1;
-                Console.WriteLine($"{message.Properties.IdGame}-Starting at round {i}");
+                int i = data == null || data.Data == null ||  data.Data.Count() == 0 ? 0 : data.Data.Max(e => e.Round) + 1;                
                 while (i < message.Properties.Rounds)
                 {
                     var result = (await playground.Ask<Try<RoundResultMessage>>(StartRoundMessage.Instance)).OrElseThrow();
                     (await writer.Ask<Try<FinishedMessage>>(new ResultMessage(idGame:message.Properties.IdGame,round:i,player1Result:result.Player1Result,
                         player1Tip:result.Player1Tip,player2Result:result.Player2Result,player2Tip:result.Player2Tip))).OrElseThrow();
+                  
+
+                    Console.WriteLine($"{message.Properties.IdGame}->Round:{i}-Finished");
+
                     i++;
                 }
                 return new GameFinishMessage(message.Properties.IdGame);

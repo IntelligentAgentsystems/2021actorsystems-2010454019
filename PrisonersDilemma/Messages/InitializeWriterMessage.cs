@@ -9,10 +9,14 @@ namespace PrisonersDilemma.Messages
     internal class InitializeWriterMessage
     {
         public string IdGame { get; private set; }
+        public string Hostname { get; private set; }
+        public int Port { get; private set; }
 
-        public InitializeWriterMessage(string idGame)
+        public InitializeWriterMessage(string idGame, string hostname, int port)
         {
             IdGame = idGame;
+            Hostname = hostname;
+            Port = port;
         }
     }
 }

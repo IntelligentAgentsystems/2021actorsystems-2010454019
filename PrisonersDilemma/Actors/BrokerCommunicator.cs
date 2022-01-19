@@ -11,30 +11,31 @@ using System.Threading.Tasks;
 
 namespace PrisonersDilemma
 {
-    internal class Writer : ReceiveActor
+    internal class BrokerCommunicator : ReceiveActor
     {
 
         private ConnectionFactory factory;
         private IConnection connection;
         private IModel channel;
-        public Writer()
+        public BrokerCommunicator()
         {
             ReceiveAsync<InitializeWriterMessage>(OnReceive_InitializeWriterMessage);
             ReceiveAsync<ResultMessage>(OnReceive_ResultMessage);
+            ReceiveAsync<GetDataMessage>(OnReceive_GetDataMessage);
         }
 
         protected override void PostStop()
-        {
-            base.PostStop();
+        { 
             channel?.Close();
             connection?.Close();
+            base.PostStop();
         }
 
         private async Task OnReceive_InitializeWriterMessage(InitializeWriterMessage message)
         {
             Sender.Tell(await Try<InitializeFinishedMessage>.Of(async () =>
             {
-                factory = new ConnectionFactory() { HostName = "localhost" };
+                factory = new ConnectionFactory() { HostName = message.Hostname, Port=message.Port };
                 connection = factory.CreateConnection();
                 channel = connection.CreateModel();
 
@@ -46,16 +47,33 @@ namespace PrisonersDilemma
             Sender.Tell(await Try<FinishedMessage>.Of(async () =>
             {
                 Utils.MayFail();
-
-                //DummyStorage.Instance.AddData(message);
                 
                 channel.BasicPublish(exchange: Utils.ExchangeName,
                     routingKey: message.IdGame,
                     basicProperties: null,
                     body: Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message)));
-
-                Console.WriteLine($"{message.IdGame}-{message.Round}-{message.Player1Result}-{message.Player2Result}");
+               
                 return FinishedMessage.Instance;
+            }));
+        }
+
+        private async Task OnReceive_GetDataMessage(GetDataMessage message)
+        {
+            Sender.Tell(await Try<GameDataMessage>.Of(async () =>
+            {
+                Utils.MayFail();
+
+                var data = new List<ResultMessage>();
+
+                var result = channel.BasicGet(queue: message.IdGame, autoAck: false);
+                while (result != null)
+                {
+                    data.Add(JsonConvert.DeserializeObject<ResultMessage>(Encoding.UTF8.GetString(result.Body.ToArray())));
+                    result = channel.BasicGet(queue: message.IdGame, autoAck: false);
+                }
+
+
+                return new GameDataMessage(data: data);
             }));
         }
     }

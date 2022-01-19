@@ -10,10 +10,15 @@ namespace PrisonersDilemma.Messages
     internal class GameStartMessage
     {
         public GameProperties Properties { get; private set; }
+        public string Hostname { get; private set; }
+        public int Port { get; private set; }
 
-        public GameStartMessage(GameProperties properties)
+
+        public GameStartMessage(GameProperties properties, string hostname, int port)
         {
             Properties = properties;
+            Hostname = hostname;
+            Port = port;
         }
     }
 }
