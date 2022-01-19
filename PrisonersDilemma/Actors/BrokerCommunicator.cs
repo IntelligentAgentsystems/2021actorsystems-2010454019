@@ -17,6 +17,7 @@ namespace PrisonersDilemma
         private ConnectionFactory factory;
         private IConnection connection;
         private IModel channel;
+        private IBasicProperties props;
         public BrokerCommunicator()
         {
             ReceiveAsync<InitializeWriterMessage>(OnReceive_InitializeWriterMessage);
@@ -39,6 +40,10 @@ namespace PrisonersDilemma
                 connection = factory.CreateConnection();
                 channel = connection.CreateModel();
 
+                props = channel.CreateBasicProperties();
+                props.DeliveryMode = 2;
+                props.ContentType = "application/json";
+
                 return InitializeFinishedMessage.Instance;
             }));          
         }
@@ -50,7 +55,7 @@ namespace PrisonersDilemma
                 
                 channel.BasicPublish(exchange: Utils.ExchangeName,
                     routingKey: message.IdGame,
-                    basicProperties: null,
+                    basicProperties: props,
                     body: Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(message)));
                
                 return FinishedMessage.Instance;
