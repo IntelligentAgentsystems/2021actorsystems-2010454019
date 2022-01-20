@@ -10,9 +10,14 @@ namespace PrisonersDilemma.Messages
     {
         public List<string> GameIds { get; private set; }
 
-        public SetupQueueMessage(List<string> gameIds)
+        public string Hostname { get; private set; }
+        public int Port { get; private set; }
+
+        public SetupQueueMessage(List<string> gameIds, string hostname, int port)
         {
             GameIds = gameIds;
+            Hostname = hostname;
+            Port = port;
         }
     }
 }

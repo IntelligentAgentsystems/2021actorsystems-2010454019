@@ -15,11 +15,8 @@ namespace PrisonersDilemma.Helper
 
         public static void MayFail()
         {
-            if (new Random().NextDouble() > 0.9)
+            if (new Random().NextDouble() > 0.95)
                 throw new Exception("MayFail-Triggered");
-
-            if (new Random().NextDouble() > 1)
-                Thread.Sleep(250);
         }
     }
 }

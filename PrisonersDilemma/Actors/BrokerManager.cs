@@ -29,7 +29,7 @@ namespace PrisonersDilemma.Actors
             {
                 if (factory == null)
                 {
-                    factory = new ConnectionFactory() { HostName = "localhost" };
+                    factory = new ConnectionFactory() { HostName = message.Hostname,Port=message.Port};
                     connection = factory.CreateConnection();
                     
 

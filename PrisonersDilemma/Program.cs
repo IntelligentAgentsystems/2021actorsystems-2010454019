@@ -27,15 +27,21 @@ BootstrapSetup Bootstrap = BootstrapSetup.Create().WithConfig(
 
 
 var system = ActorSystem.Create("MySystem", Bootstrap);
-int rounds = 0;
-int gamesPerPlayer = 50;
+int rounds = 100;
+int gamesPerPlayer = 9;
 
 //create gameProperties
 
 var playerList = new[] { 
-    typeof(AlwaysCooperate), typeof(AlwaysDefectPlayer), typeof(GradualPlayer),
-    typeof(MistrustPlayer),typeof(PavlovPlayer),typeof(ProberPlayer),
-    typeof(RandomPlayer),typeof(SpitePlayer),typeof(TitForTatPlayer) 
+    typeof(AlwaysCooperate), 
+    typeof(AlwaysDefectPlayer), 
+    typeof(GradualPlayer),
+    typeof(MistrustPlayer),
+    typeof(PavlovPlayer),
+    typeof(ProberPlayer),
+    typeof(RandomPlayer),
+    typeof(SpitePlayer),
+    typeof(TitForTatPlayer)
 };
 
 
@@ -44,7 +50,7 @@ for (int i = 0; i < gamesPerPlayer; i++)
 {
     for (int k = 0; k < playerList.Length; k++)
     {
-        props.Add(new GameProperties() { IdGame = $"{i+50}-{k}", Rounds = rounds, Player1 = playerList[i % playerList.Length], Player2 = playerList[k] });
+        props.Add(new GameProperties() { IdGame = $"{i}-{k}", Rounds = rounds, Player1 = playerList[i % playerList.Length], Player2 = playerList[k%playerList.Length] });
     }
 }
 
@@ -58,7 +64,7 @@ results.Add(await globalOperator.Ask<Try<GameDataMessage>>(new StartGamesMessage
     Properties = props.ToArray(),
     Hostname = "localhost",
     Port = 5672
-}, Utils.Timeout_GameOperator_StartGames(games: gamesPerPlayer, rounds: rounds)));
+}, Utils.Timeout_GameOperator_StartGames(games: gamesPerPlayer* playerList.Length, rounds: rounds)));
 
 
 foreach (var item in results)

@@ -24,7 +24,7 @@ namespace PrisonersDilemma
             {
                 //Setup Broker
                 var brokerManager = Context.ActorOf<BrokerManager>($"{nameof(BrokerManager)}_{Guid.NewGuid()}");
-                (await brokerManager.Ask<Try<FinishedMessage>>(new SetupQueueMessage(message.Properties.Select(e => e.IdGame).ToList()))).OrElseThrow();
+                (await brokerManager.Ask<Try<FinishedMessage>>(new SetupQueueMessage(message.Properties.Select(e => e.IdGame).ToList(),message.Hostname,message.Port))).OrElseThrow();
 
 
                 Dictionary<string, (IActorRef actor, Task<Try<GameFinishMessage>> result)> data = new Dictionary<string, (IActorRef, Task<Try<GameFinishMessage>>)>();

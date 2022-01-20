@@ -42,7 +42,7 @@ namespace PrisonersDilemma
 
                 props = channel.CreateBasicProperties();
                 props.DeliveryMode = 2;
-                props.ContentType = "application/json";
+                props.ContentType = "text/plain";
 
                 return InitializeFinishedMessage.Instance;
             }));          
