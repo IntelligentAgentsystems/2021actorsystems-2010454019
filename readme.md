@@ -62,7 +62,7 @@ https://de.wikipedia.org/wiki/Gefangenendilemma#Strategien
 * Mehrere Broker laufen lassen um mehr als 128 Spiele gleichzeitig spielen zu können
 * Kapselung von Playground & Player
 	* bei Fehler in einer Spielrunde können Playground & Player neu gestartet werden
-	* GameManager & BrokerCommunicator müssen weniger oft neu gestartet werden -> Skalierbarkeit da BrokerManager immer Verbindung zum Broker aufbauen muss
+	* GameManager & BrokerCommunicator müssen weniger oft neu gestartet werden -> Skalierbarkeit da BrokerCommunicator immer Verbindung zum Broker aufbauen muss
 
 
 # Ergebnisse
